@@ -3,12 +3,13 @@ layout: post
 title:  "Jekyll로 블로그 시작하기 위한 준비"
 date:   2016-11-28 19:36:07 +0900
 categories: jekyll update
+tags: [Jekyll, Ruby, Github, GitpubPage]
 ---
 Jekyll로 블로그를 시작해보기 위해 설치하는 동안 만난 에러.
 
 ## gem install File Permission Error
 ```bash
-    $ gem install jekyll
+$ gem install jekyll
 ERROR:  While executing gem ... (Gem::FilePermissionError)
     You don't have write permissions for the /Library/Ruby/Gems/2.0.0 directory.
 ```
@@ -16,7 +17,7 @@ ERROR:  While executing gem ... (Gem::FilePermissionError)
 파일 permission 에러를 만나 관리자 권한을 사용하여 해결해보려고 함.
 
 ```bash
-    $ sudo gem install jekyll
+$ sudo gem install jekyll
 Password:
 ERROR:  While executing gem ... (Errno::EPERM)
     Operation not permitted - /usr/bin/kramdown
