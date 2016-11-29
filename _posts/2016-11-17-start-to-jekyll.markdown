@@ -43,16 +43,13 @@ $ rbenv init
 eval "$(rbenv init -)"
 ```
 
-Rbenv init의 결과로 나온 것을 참고하여 ~/.bash_profile에 `<eval "$(rbenv init -)">`을 넣어주고,
+Rbenv init의 결과로 나온 것을 참고하여 ~/.bash_profile에 `eval "$(rbenv init -)"`을 넣어주고,
 수정된 bash_profile을 적용하기 위해 둘 중에 하나를 함.
 - terminal을 껏다가 킴
-- `<$ source ~/.bash_profile>`
+- `$ source ~/.bash_profile`
 
-그리고,
-```bash
-$ gem env home
-```
-을 하면 `<{user}/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0>` 경로에 ruby가 설치된 것을 알 수 있음.
+그리고, `$ gem env home`
+을 하면 `{user}/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0` 경로에 ruby가 설치된 것을 알 수 있음.
 
 ## Install dependecies
 Gem dependencies를 설치해주는데 필요한 bundler를 설치 [참고](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/#requirements)
