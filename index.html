@@ -4,10 +4,8 @@ layout: home_custom
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
     <h1 style="margin-bottom: 5px;"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    <div style="margin-bottom: 10px">
-        <span class="author">
-            <span class="date">{{ post.date }}</span>
-        </span>
+    <div class="post-meta" style="margin-bottom: 10px">
+        <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
         <br>
         {% if post.tags.size > 0 %}
         <span> Tags:
