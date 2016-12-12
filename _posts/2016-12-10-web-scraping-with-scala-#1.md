@@ -16,11 +16,12 @@ tags: [scala, web, scraping, crawling, crawler, 스칼라, 크롤러]
 ## Approach
 1. [스칼라로 URL 접근방법](http://alvinalexander.com/scala/scala-how-to-download-url-contents-to-string-file)
 에서 제시한 방법대로 진행하였을 때, **google.com**에서 아래와 같은 에러 발생
-
-    <!--language: bash-->
+    <div class="language-bash highlighter-rouge"><pre class="highlight"><code>
     [error] (run-main-0) java.nio.charset.MalformedInputException: Input length = 1
     java.nio.charset.MalformedInputException: Input length = 1
     ...
+    </code></pre></div>
+
 
 2. [Using result from Scalas “fromURL” throws Exception](http://stackoverflow.com/questions/29987146/using-result-from-scalas-fromurl-throws-exception)
 에서 encode/decode 문제라는 것을 파악. 
