@@ -30,4 +30,4 @@ permalink: /about/
 
 # Contact me
 - [Linked in](https://www.linkedin.com/in/jungbin-kim-165300a3?trk=hp-identity-name)
-- [e-mail](mailto:bin88829@gmail.com?subject=Hello)
+- [e-mail](mailto:mail@jungbin.kim?subject=Hello)
