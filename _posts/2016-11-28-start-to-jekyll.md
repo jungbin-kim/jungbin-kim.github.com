@@ -54,6 +54,19 @@ Rbenv init의 결과로 나온 것을 참고하여 ~/.bash_profile에 `eval "$(r
 
 그리고, `$ gem env home` 을 하면 `{user}/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0` 경로에 ruby가 설치된 것을 알 수 있음.
 
+- 최근 포맷 후 재설치하는 과정에서, 위의 과정을 진행 할 때 여전히 작동을 안하며, `$ gem env home`가 원래 경로에서 변경되지 않은 것을 확인 (edit 2017.09.09)
+
+    계속 에러가 나는 이유는 global ruby가 바뀌지 않아서였음. 
+    [rbenv github command](https://github.com/rbenv/rbenv#command-reference)를 참고하여 다음 두가지 방법들을 적용해봄 (1, 2는 순서 아님)  
+    ```bash
+    // 1. Change global ruby version
+    $ rbenv global {ruby version}
+    
+    // 2. Change local projcet ruby version by using rbenv 
+    $ cd {local project}
+    $ rbenv local 2.4.1
+    ```
+
 ## Install dependencies
 Gem dependencies를 설치해주는데 필요한 bundler를 설치 [참고](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/#requirements)
 
