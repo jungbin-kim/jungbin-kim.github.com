@@ -32,3 +32,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
 paginate: 5
+plugins:
+  - jekyll-gist
