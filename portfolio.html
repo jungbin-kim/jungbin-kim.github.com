@@ -3,9 +3,12 @@ layout: page
 title: Portfolio
 permalink: /portfolio/
 ---
+
 <h4>Awards / Grants</h4>
 <table>
     {% for portfolio in site.portfolio %}
+    <!-- @TODO Filtering inefficiently -->
+        {% if portfolio.categories contains "award" or portfolio.categories contains "grant" %}
         <tr>
             <td>{{ portfolio.time }}</td>
             <td>
@@ -17,5 +20,6 @@ permalink: /portfolio/
                 {% endif %}
             </td>
         </tr>
+        {% endif %}
     {% endfor %}
 </table>
