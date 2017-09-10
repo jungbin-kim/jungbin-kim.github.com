@@ -34,3 +34,7 @@ exclude:
 paginate: 5
 plugins:
   - jekyll-gist
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/

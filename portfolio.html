@@ -1,0 +1,21 @@
+---
+layout: page
+title: Portfolio
+permalink: /portfolio/
+---
+<h4>Awards / Grants</h4>
+<table>
+    {% for portfolio in site.portfolio %}
+        <tr>
+            <td>{{ portfolio.time }}</td>
+            <td>
+                {% assign content = portfolio.content | strip_newlines %}
+                {% if content == ""  %}
+                    {{ portfolio.title }}
+                {% else %}
+                    <a href="{{ portfolio.url }}">{{ portfolio.title }}</a>
+                {% endif %}
+            </td>
+        </tr>
+    {% endfor %}
+</table>
