@@ -3,9 +3,56 @@ layout: page
 title: Portfolio
 permalink: /portfolio/
 ---
+<!--@TODO What I do 요약
+Example by http://newhaven.io/blog/creating-jekyll-portfolio-page/
+Front-end
+CSS3, Javascript, ES6, React, ThreeJS, DataViz
+Back-end
+NodeJS, PHP, APIs, Sysadmin, Devops, NoSQL
+CMS
+Drupal, Wordpress
+Apps
+Mobile, React Native, Electron
+Cloud
+AWS, Google, Firebase
+-->
+
+<h4>Projects</h4>
+<table>
+    <tr>
+        <th> Time </th>
+        <th> Title </th>
+        <th> Skills </th>
+    </tr>
+    {% for portfolio in site.portfolio %}
+    <!-- @TODO Filtering inefficiently -->
+    {% if portfolio.categories contains "project" %}
+    <tr>
+        <td>{{ portfolio.time }}</td>
+        <td>
+            {% assign content = portfolio.content | strip_newlines %}
+            {% if content == ""  %}
+            {{ portfolio.title }}
+            {% else %}
+            <a href="{{ portfolio.url }}">{{ portfolio.title }}</a>
+            {% endif %}
+        </td>
+        <td>
+            {{portfolio.skills | join: ", "}}
+        </td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+</table>
+
+<hr style="margin-top:25px; margin-bottom: 25px;">
 
 <h4>Awards / Grants</h4>
 <table>
+    <tr>
+        <th> Time </th>
+        <th> Title </th>
+    </tr>
     {% for portfolio in site.portfolio %}
     <!-- @TODO Filtering inefficiently -->
         {% if portfolio.categories contains "award" or portfolio.categories contains "grant" %}
