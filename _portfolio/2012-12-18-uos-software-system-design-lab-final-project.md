@@ -19,7 +19,7 @@ categories: [project]
 
 #### 상세 내용
 + 개발 목적 
-    - MySQL와 PHP를 이용한 Data WareHouse 기반의 홈페이지를 구축하여 서울시민들에게 범죄통계 관련 정보 전달을 용의하게 하는 것
+    - MySQL와 PHP를 이용한 [Data WareHouse](https://ko.wikipedia.org/wiki/%EB%8D%B0%EC%9D%B4%ED%84%B0_%EC%9B%A8%EC%96%B4%ED%95%98%EC%9A%B0%EC%8A%A4) 기반의 홈페이지를 구축하여 서울시민들에게 범죄통계 관련 정보 전달을 용의하게 하는 것
 + 기대효과
     - 범죄 가능 지역 회피
     - 위험지역 경찰 순찰 강화 및 위험지역 선정 용이
