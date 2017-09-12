@@ -24,7 +24,7 @@ AWS, Google, Firebase
         <th> Title </th>
         <th> Skills </th>
     </tr>
-    {% for portfolio in site.portfolio %}
+    {% for portfolio in site.portfolio reversed %}
     <!-- @TODO Filtering inefficiently -->
     {% if portfolio.categories contains "project" %}
     <tr>
