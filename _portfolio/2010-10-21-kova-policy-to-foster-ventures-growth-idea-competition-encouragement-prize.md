@@ -1,7 +1,7 @@
 ---
 layout: post
 time: "21 September 2010"
-title: "Encouragement Prize, Policy to foster growth idea competition"
+title: "Encouragement Prize, Policy to foster ventures growth idea competition"
 categories: [award]
 ---
 
