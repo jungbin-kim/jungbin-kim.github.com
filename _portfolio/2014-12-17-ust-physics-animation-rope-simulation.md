@@ -15,6 +15,44 @@ categories: [project]
 - JavaScript(three.js 라이브러리 위주), HTML5, CSS3를 이용한 물리 기반 동작 구현.
 - [Github 정리 페이지](https://github.com/jungbin-kim/web/tree/master/threejs/physics-animation/term-project)
 
+#### Goal
+1. Model a rope with multiple particles
+2. Implement bending feature
+3. Use of implicit integrator
+4. Collision
+ - Against surroundings
+ - Rope / Rope interaction
+
+#### Procedure
+1. Modeling
+ - Particle
+ - Rope
+ - Plane
+ - Cube
+2. Implicit Method
+ - Implicit Euler Integration
+3. Collision
+ - between Particle and Plane
+ - between Ropes
+
+#### Result
+- Implicit Euler Method
+
+[![Link](http://img.youtube.com/vi/urBGSMNdgpQ/0.jpg)](http://www.youtube.com/watch?v=urBGSMNdgpQ)
+
+- Explicit Euler Method
+
+[![Link](http://img.youtube.com/vi/-FTIIJMbzqM/0.jpg)](http://www.youtube.com/watch?v=-FTIIJMbzqM)
+
+#### Conclusion
+1. Collision particle and plane
+ - Sometimes miss the collision (tunneling effect)
+2. Collision between ropes method is not that efficient
+3. Compare to explicit method
+ - more stable
+
+#### Reference
+[Physics for JavaScript Games Animation Simulations](https://github.com/devramtal/Physics-for-JavaScript-Games-Animation-Simulations)
+
 ***
- 
-{% remote_include https://raw.githubusercontent.com/jungbin-kim/web/master/threejs/physics-animation/term-project/README.md %}
+Continued from [Homework2](https://github.com/jungbin-kim/web/tree/master/threejs/physics-animation/homework2)
