@@ -25,15 +25,15 @@ github_username:  jungbin-kim
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
-  - jekyll-feed
-  - jekyll-paginate
+
 exclude:
   - Gemfile
   - Gemfile.lock
 paginate: 5
 plugins:
   - jekyll-gist
+  - jekyll-feed
+  - jekyll-paginate
 collections:
   portfolio:
     output: true
