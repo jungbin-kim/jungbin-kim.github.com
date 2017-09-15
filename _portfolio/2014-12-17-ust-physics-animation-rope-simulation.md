@@ -12,7 +12,7 @@ categories: [project]
 # UST Physics Animation Term Project
 - 주제: 현실 물리 기반으로 동작하는 3D model 구현
 - 기간: 2014년 2학기
-- JavaScript(three.js 라이브러리 위주), HTML5, CSS3를 이용한 물리 기반 동작 구현.
+- 현실 물리 세계 법칙에 따른 동작 공식을 JavaScript로 구현하였으며, 그 공식에 따라 움직이는 물체들을 Three.js를 이용하여 Virtual 3D 공간에 표현. 
 - [Github 정리 페이지](https://github.com/jungbin-kim/web/tree/master/threejs/physics-animation/term-project)
 
 #### Goal
