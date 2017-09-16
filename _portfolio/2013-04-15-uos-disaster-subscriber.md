@@ -9,7 +9,7 @@ image: ""
 categories: [project]
 ---
 
-# UOS Multimedia Lab 학부연구생 Project 
+# 서울시립대학교(University of Seoul, UOS) Multimedia Lab 학부연구생 Project 
 - 주제: Windows Azure를 이용한 재난 알림 서비스
 - 기간: 2013년 1월 7일 ~ 4월 15일
 - C#, Azure를 이용한 window8 어플리케이션 개발
