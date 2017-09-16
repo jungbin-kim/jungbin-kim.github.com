@@ -1,6 +1,6 @@
 ---
 layout: post
-time: "21 September 2010"
+time: "21 Sep 2010"
 title: "Encouragement Prize, Policy to foster ventures growth idea competition"
 categories: [award]
 ---

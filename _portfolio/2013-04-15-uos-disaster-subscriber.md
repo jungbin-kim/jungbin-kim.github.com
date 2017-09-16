@@ -1,6 +1,6 @@
 ---
 layout: post
-time: "07 January ~ 15 April 2013"
+time: "07 Jan ~ 15 Apr 2013"
 title: "Disaster Alert Notification Service Using Windows Azure"
 title_ko: "Windows Azure를 이용한 재난 알림 서비스"
 skills: [C#, Azure]

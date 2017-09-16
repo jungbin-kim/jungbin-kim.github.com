@@ -1,6 +1,6 @@
 ---
 layout: post
-time: "13 February 2014"
+time: "13 Feb 2014"
 title: "Best Poster Award, HCI Korea 2014"
 categories: [award]
 ---
