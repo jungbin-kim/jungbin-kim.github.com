@@ -1,6 +1,6 @@
 ---
 layout: post
-time: "07 Jan ~ 15 Apr 2013"
+time: "Jan ~ Apr 2013"
 title: "Disaster Alert Notification Service Using Windows Azure"
 title_ko: "Windows Azure를 이용한 재난 알림 서비스"
 skills: [C#, Azure]
@@ -11,7 +11,7 @@ categories: [project]
 
 # UOS Multimedia Lab 학부연구생 Project 
 - 주제: Windows Azure를 이용한 재난 알림 서비스
-- 기간: 2013년 1월 ~ 4월
+- 기간: 2013년 1월 7일 ~ 4월 15일
 - C#, Azure를 이용한 window8 어플리케이션 개발
 
 #### 데모 영상 (Demo video)
