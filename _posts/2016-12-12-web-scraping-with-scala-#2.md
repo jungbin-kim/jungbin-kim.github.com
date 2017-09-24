@@ -10,7 +10,6 @@ tags: [scala, web, scraping, crawling, crawler, 스칼라, 크롤러]
 ---
 
 Continued [Web Scraping with Scala-#1](./programming/scala/2016/12/10/web-scraping-with-scala-1.html)
-
 ## Requirement
 1. [Scala scraper](https://github.com/ruippeixotog/scala-scraper)(A Scala library for scraping content from HTML pages) 사용
 2. Get URL에 대한 Exception Case 처리

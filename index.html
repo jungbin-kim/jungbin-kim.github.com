@@ -3,16 +3,16 @@ layout: home
 ---
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
+<div>
     <h1 style="margin-bottom: 5px;"><a href="{{ post.url }}">{{ post.title }}</a></h1>
     {% include post_meta.html post=page %}
-
-    <div class="content">
-        {{ post.content }}
-    </div>
-    <div class="post-delimiter">
-        {{ '***' | markdownify }}
-        <br />
-    </div>
+    <span>
+    {{ post.excerpt }}
+    <p><h4><a href="{{ post.url }}">More &raquo;</a></h4></p>
+    </span>
+    <hr style="display: block; height: 1px; border: 0;
+               border-top: 1px dashed #d0d0d0; margin: 1em 0; padding: 0;">
+</div>
 {% endfor %}
 
 <!-- Pagination links -->

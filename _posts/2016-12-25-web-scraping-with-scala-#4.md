@@ -8,12 +8,8 @@ comments: true
 categories: [programming, scala]
 tags: [scala, web, scraping, crawling, crawler, 스칼라, 크롤러]
 ---
-
 Continued [Web Scraping with Scala-#3](./programming/scala/2016/12/13/web-scraping-with-scala-3.html)
-
-
 ## Requirements
-
 1. Wiki 페이지 안에 항목 페이지로 연결되는 Path 출력
     - 모든 항목 페이지는 id가 bodyContent 인 html element 안에 존재함
     - 항목 페이지의 Path 는 **/wiki/** 로 시작
@@ -22,6 +18,7 @@ Continued [Web Scraping with Scala-#3](./programming/scala/2016/12/13/web-scrapi
 2. 위 1번의 Wiki 페이지 안에 존재하는 항목 페이지로 연결하는 Path들의 리스트를 반환하는 getLinks 함수
 3. 2번에서 만든 getLinks 함수를 호출해서 반환한 주소들 중 랜덤한 한 주소를 선택하여, getLinks 함수를 다시 호출하는 작업
     - 프로그램을 끝내거나 새 페이지에 항목 링크가 없을 때까지 반복
+
 
 ## Approach
 
