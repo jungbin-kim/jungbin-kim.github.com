@@ -14,27 +14,34 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Jungbin's Blog
-email: mail@jungbin.kim
-description: > # this means to ignore newlines until "baseurl:"
-  I'm interested in virtual reality(VR), augmented reality(AR), programming.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
-github_username:  jungbin-kim
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: minimal-mistakes-jekyll
+
+include: ["_pages"]
 
 exclude:
   - Gemfile
   - Gemfile.lock
+
 paginate: 5
+
 plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-paginate
+
 collections:
   portfolio:
     output: true
-    permalink: /portfolio/:path/
+    permalink: /:collection/:path/
+    title: Portfolio
+
+author:
+  name             : "Jungbin Kim"
+  email            : "mail@jungbin.kim"
+  bio              : "I'm interested in virtual reality(VR), augmented reality(AR), programming."
+  github           : "jungbin-kim"
