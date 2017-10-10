@@ -54,3 +54,9 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+analytics:
+  provider: "google-universal"
+  google:
+    tracking_id: "UA-107842956-1"
+

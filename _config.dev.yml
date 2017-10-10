@@ -1,0 +1,5 @@
+analytics:
+  provider: "google-universal"
+  google:
+    tracking_id: ""
+
