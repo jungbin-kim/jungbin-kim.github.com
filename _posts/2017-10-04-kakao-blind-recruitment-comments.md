@@ -64,6 +64,9 @@ tags: [scala, 스칼라, coding, kakao]
     + cache miss일 경우 실행시간은 5이다.
 - 코딩
 {% gist jungbin-kim/acc54d54af4ff954105338534636526a Kakao-coding-test-3.scala %}
+- Updated at 2017.10.14 <br />
+LRU 알고리즘을 고려하지 않은 것을 지적받아서 수정하였음. 
+city를 caching 할 때, cache array에 이미 그 city가 존재하면 그 city를 pop 하고 맨 나중으로 push.   
 
 ### 4번 셔틀버스
 - 카카오톡 공지 난이도: 중
