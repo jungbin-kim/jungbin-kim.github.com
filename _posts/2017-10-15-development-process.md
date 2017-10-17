@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Thinking of software development process for team 
+title: Thinking of software development process for small team 
 date: 2017-10-15 10:30:00 +0900
 type: post
 published: true
