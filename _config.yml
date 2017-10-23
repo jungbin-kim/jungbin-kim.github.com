@@ -47,6 +47,12 @@ author:
   github           : "jungbin-kim"
 
 defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      comments: true
   # _pages
   - scope:
       path: _pages
@@ -56,4 +62,9 @@ defaults:
       author_profile: true
 
 google_analytics: "UA-107842956-1"
+
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "blog-jungbin-kim"
 
