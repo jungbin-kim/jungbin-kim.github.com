@@ -1,0 +1,18 @@
+
+<div class="page__inner-wrap">
+    <header>
+        <h1 class="page__title" itemprop="headline">
+            {{ page.alt_title | default: page.autopage.display_name | default: page.title | default: site.title | markdownify | strip_html | widont }}
+        </h1>
+        {% if page.sub_title %}
+        <p>{{ page.sub_title | markdownify | strip_html }}</p>
+        {% endif %}
+
+        <p class="page__meta">
+            {%
+                include post_meta.html
+                post = page
+            %}
+        </p>
+    </header>
+</div>

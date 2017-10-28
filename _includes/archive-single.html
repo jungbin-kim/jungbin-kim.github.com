@@ -1,3 +1,5 @@
+<!-- 테마 내 _layouts/home.html에서 참조함. 첫 페이지인 index.html에서 사용 -->
+
 {% if post.header.teaser %}
 {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
 {% else %}
@@ -30,10 +32,14 @@
         <a href="{{ post.url | absolute_url }}" rel="permalink">{{ title }}</a>
         {% endif %}
     </h2>
+
     <p class="page__meta">
-        <i class="fa fa-clock-o" aria-hidden="true"></i>
-        {% include post_meta.html %}
+        {%
+            include post_meta.html
+            post = pot
+        %}
     </p>
+
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
 </article>
 </div>

@@ -1,12 +1,18 @@
 ---
-layout: single
+layout: default
 ---
+
 <main id="main" class="page-content" aria-label="Content">
-    <div class="inner">
-        <article class="entry-wrap">
-            <div class="entry-content">
-                {{ content }}
-            </div>
-        </article>
-    </div>
+    <article>
+
+        {% include post_header.html %}
+
+        {{ content }}
+
+    </article>
+
+    {% if page.comments == true %}
+        {% include comments.html %}
+    {% endif %}
+
 </main>

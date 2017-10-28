@@ -1,11 +1,36 @@
+<!-- post의 meta 데이터 템플릿 -->
+
 {% assign post = include.post %}
-<time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
+
+{% if post.date %}
+<span>
+    <i class="fa fa-clock-o" aria-hidden="true"></i>
+    <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
+</span>
+{% endif %}
+
 <br>
+
+{% if post.categories.size > 0 %}
+<span>
+    <i class="fa fa-fw fa-folder-open" aria-hidden="true"></i>
+    Categories:
+    {% for c in post.categories %}
+    <span style="display: inline-block; border: 1px solid #b6b6b6; border-radius: 4px;">
+        {{ c }}
+    </span>
+    {% endfor %}
+</span>
+{% endif %}
+
+<br>
+
 {% if post.tags.size > 0 %}
-<span> Tags:
+<span>
+    <i class="fa fa-fw fa-folder-open" aria-hidden="true"></i>
+    Tags:
     {% for tag in post.tags %}
     <a href="/tags/#{{tag|slugize}}" class="myButton">#{{ tag }}</a>
     {% endfor %}
 </span>
 {% endif %}
-<br>
