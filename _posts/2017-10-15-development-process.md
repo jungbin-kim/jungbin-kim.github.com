@@ -8,7 +8,7 @@ comments: true
 categories: [programming]
 tags: [programming, development process]
 ---
- 
+
 ## Overview
 Atlassian의 [jira](https://ko.atlassian.com/software/jira)와 [bitbucket](https://ko.atlassian.com/software/bitbucket)를 사용하였지만,
 두 서비스를 별도로 사용하는 것과 별반 다를게 없어 좀 더 유기적으로 사용하여 이슈, 코드 관리를 하려함.

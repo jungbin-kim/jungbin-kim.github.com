@@ -8,7 +8,7 @@ comments: true
 categories: [scala]
 tags: [scala, programming, dependency injection]
 ---
- 
+
 ## Issue
 스칼라에서의 Dependency Injection에서 어떤 경우에는 객체를 `val` 로 선언하고, 어떤 경우에는 그냥 하는지 궁금했음.
  

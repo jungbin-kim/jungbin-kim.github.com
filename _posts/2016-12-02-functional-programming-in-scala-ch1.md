@@ -8,7 +8,7 @@ comments: true
 categories: [scala, programming]
 tags: [scala, functional, programming, book]
 ---
- 
+
 ## 함수형 프로그래밍이란 무엇인가?
 Pure function 으로 프로그램을 구축. 
 Pure function은 Side Effect(부수효과: 정해진 결과를 돌려주는 것 이외의 어떤 일)가 없는 함수이며,

@@ -8,7 +8,7 @@ comments: true
 categories: [scala]
 tags: [programming, scala, play framework, structure]
 ---
- 
+
 ## Overview
 Play framework v2.5 for scala (scala v2.11.7 사용) 프로젝트에서 적용하고 있었던 Controller, Service, DAO(Data access object) 구조 코드 정리와
 이를 생각하다가 갑지기 궁금해진 두 가지 궁금증에 대한 해결.

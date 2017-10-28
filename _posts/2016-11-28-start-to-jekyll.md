@@ -5,6 +5,7 @@ date:   2016-11-28 19:36:07 +0900
 categories: [blog]
 tags: [Jekyll, Ruby, Github, GitpubPage]
 ---
+
 Jekyll로 블로그를 시작해보기 위해 설치하는 동안 만난 에러들과 설치 방법들
 
 ## Errors

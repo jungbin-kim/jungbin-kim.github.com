@@ -8,6 +8,7 @@ comments: true
 categories: [programming, scala]
 tags: [scala, web, scraping, crawling, crawler, 스칼라, 크롤러]
 ---
+
 Continued [Web Scraping with Scala-#3](./programming/scala/2016/12/13/web-scraping-with-scala-3.html)
 ## Requirements
 1. Wiki 페이지 안에 항목 페이지로 연결되는 Path 출력
