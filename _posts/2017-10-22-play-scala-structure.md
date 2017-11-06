@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Structure for play-scala (Controller, Service, DAO)
-date: 2017-10-22 10:56:00 +0900
+date: 2017-10-22 19:56:00 +0900
 type: post
 published: true
 comments: true

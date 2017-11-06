@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dependency injection as val in scala
-date: 2017-04-19 00:24:00 +0900
+date: 2017-04-19 09:24:00 +0900
 type: post
 published: true
 comments: true

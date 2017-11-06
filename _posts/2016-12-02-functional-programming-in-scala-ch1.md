@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Functional Programming in scala #1
-date: 2016-12-02 11:40:36 +0900
+date: 2016-12-02 20:40:36 +0900
 type: post
 published: true
 comments: true

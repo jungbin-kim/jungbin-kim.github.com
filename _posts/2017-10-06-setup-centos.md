@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to setup user login in CentOS v7.3 64bit
-date: 2017-10-06 12:55:00 +0900
+date: 2017-10-06 21:55:00 +0900
 type: post
 published: true
 comments: true

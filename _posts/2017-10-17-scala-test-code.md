@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Research libraries & Apply for play-scala unit test 
-date: 2017-10-17 11:47:00 +0900
+date: 2017-10-17 20:47:00 +0900
 type: post
 published: true
 comments: true

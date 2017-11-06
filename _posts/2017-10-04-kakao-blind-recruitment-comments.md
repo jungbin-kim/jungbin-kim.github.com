@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kakao blind recruitment comments
-date: 2017-10-04 06:30:49 +0900
+date: 2017-10-04 15:30:49 +0900
 type: post
 published: true
 comments: true
