@@ -18,7 +18,9 @@ permalink: /about/
 - *Scala* 
     + Play Framework
     + SBT
+    + Akka
 - *Web (HTML5, CSS3, JavaScript)*
+- *Swift3 for iOS*
 
 # Publication
 - [Jungbin Kim, Byounghyun Yoo, and Heedong Ko, "Tour Cloud Mobile: Helping Tourists Acquire the Information Effectively Using Three Types of Views," IEEE International Conference on Consumer Electronics (IEEE ICCE), Las Vegas, NV, USA, Jan 9-12, 2015, pp.706-707.](https://doi.org/10.1109/ICCE.2015.7066573)
