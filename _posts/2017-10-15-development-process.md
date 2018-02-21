@@ -5,8 +5,8 @@ date: 2017-10-15 19:30:00 +0900
 type: post
 published: true
 comments: true
-categories: [programming]
-tags: [programming, development process]
+categories: [Programming]
+tags: [Programming, Development process]
 ---
 
 ## Overview

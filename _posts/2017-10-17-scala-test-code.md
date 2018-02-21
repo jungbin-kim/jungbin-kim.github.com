@@ -5,8 +5,8 @@ date: 2017-10-17 20:47:00 +0900
 type: post
 published: true
 comments: true
-categories: [scala]
-tags: [programming, scala, test code, play framework]
+categories: [Playframework, Scala]
+tags: [Programming, Scala, TDD, Play framework]
 ---
 
 ## Overview

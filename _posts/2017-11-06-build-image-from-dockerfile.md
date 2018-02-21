@@ -5,8 +5,8 @@ date: 2017-11-06 21:31:00 +0900
 type: post
 published: true
 comments: true
-categories: [docker]
-tags: [docker file, build, docker]
+categories: [Docker]
+tags: [Docker file, Docker]
 ---
 
 ## Overview

@@ -5,8 +5,8 @@ date: 2017-06-03 22:17:47 +0900
 type: post
 published: true
 comments: true
-categories: [docker]
-tags: [environment, setup, 환경설정, ubuntu, docker]
+categories: [Docker]
+tags: [Setup environment, 환경설정, ubuntu, Docker]
 ---
 
 ## Overview

@@ -5,8 +5,8 @@ date: 2017-10-06 21:55:00 +0900
 type: post
 published: true
 comments: true
-categories: [linux]
-tags: [environment, setup, 환경설정, centos]
+categories: [Linux]
+tags: [Setup environment, 환경설정, centos]
 ---
 
 ## Overview

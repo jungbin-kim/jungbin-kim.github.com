@@ -5,8 +5,8 @@ date: 2017-10-04 15:30:49 +0900
 type: post
 published: true
 comments: true
-categories: [programming, scala]
-tags: [scala, 스칼라, coding, kakao]
+categories: [Programming, Scala]
+tags: [Scala, 스칼라, Programming, kakao]
 ---
 
 ## 개요 

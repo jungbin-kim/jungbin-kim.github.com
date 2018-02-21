@@ -1,12 +1,12 @@
 ---
 layout: post
-title: How to setup Elastic Search v5.4.3 in ubuntu
+title: How to setup Elasticsearch v5.4.3 in ubuntu
 date: 2017-07-05 12:19:57 +0900
 type: post
 published: true
 comments: true
-categories: [elasticsearch]
-tags: [environment, setup, 환경설정, ubuntu]
+categories: [Elasticsearch]
+tags: [Setup environment, 환경설정, ubuntu]
 ---
 
 ## Overview

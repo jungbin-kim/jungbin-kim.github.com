@@ -5,8 +5,8 @@ date: 2016-12-02 20:40:36 +0900
 type: post
 published: true
 comments: true
-categories: [scala, programming]
-tags: [scala, functional, programming, book]
+categories: [Scala, Programming]
+tags: [Scala, Functional programming, Book]
 ---
 
 ## 함수형 프로그래밍이란 무엇인가?

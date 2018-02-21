@@ -5,8 +5,8 @@ date: 2017-04-19 09:24:00 +0900
 type: post
 published: true
 comments: true
-categories: [scala]
-tags: [scala, programming, dependency injection]
+categories: [Scala]
+tags: [Scala, Programming, Dependency injection]
 ---
 
 ## Issue

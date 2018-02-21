@@ -5,8 +5,8 @@ date: 2017-01-07 06:45:49 +0900
 type: post
 published: true
 comments: true
-categories: [programming, scala]
-tags: [scala, play, environment, setup, framework, 스칼라, 환경설정, 맥, mac]
+categories: [Playframework, Scala]
+tags: [Scala, Play framework, Setup environment, 스칼라, 환경설정, 맥, mac]
 ---
 
 ## Requirement

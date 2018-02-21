@@ -5,8 +5,8 @@ date: 2016-12-12 20:01:11 +0900
 type: post
 published: true
 comments: true
-categories: [programming, scala]
-tags: [scala, web, scraping, crawling, crawler, 스칼라, 크롤러]
+categories: [Programming, Scala]
+tags: [Scala, Web crawler, scraping, crawling, 스칼라, 크롤러]
 ---
 
 Continued [Web Scraping with Scala-#1](./programming/scala/2016/12/10/web-scraping-with-scala-1.html)

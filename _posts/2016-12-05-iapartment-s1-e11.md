@@ -5,8 +5,8 @@ date: 2016-12-05 20:44:41 +0900
 type: post
 published: true
 comments: true
-categories: [chinese]
-tags: [chinese, 중국어, 爱情公寓, 애정공우]
+categories: [Foreign language, Chinese]
+tags: [Chinese, 중국어, 爱情公寓, 애정공우]
 ---
 
 ~~~

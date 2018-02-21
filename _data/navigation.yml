@@ -11,8 +11,8 @@ main:
 posts:
   - title: Back-End
     children:
-#      - title: "Play Framework"
-#        url: /categories/#playframework
+      - title: "Play Framework"
+        url: /categories/#playframework
       - title: "Docker"
         url: /categories/#docker
       - title: "Linux"
@@ -23,14 +23,14 @@ posts:
   - title: Front-End
     children:
       - title: "Jekyll"
-        url: /categories/#blog
+        url: /categories/#jekyll
 
 #  - title: Client
 #    children:
 #      - title: "iOS"
-#        url: /docs/configuration/
+#        url: /categories/#
 
-  - title: Programing
+  - title: Programming
     children:
       - title: "Scala"
         url: /categories/#scala

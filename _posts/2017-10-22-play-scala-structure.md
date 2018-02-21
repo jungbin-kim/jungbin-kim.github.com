@@ -5,8 +5,8 @@ date: 2017-10-22 19:56:00 +0900
 type: post
 published: true
 comments: true
-categories: [scala]
-tags: [programming, scala, play framework, structure]
+categories: [Playframework, scala]
+tags: [Programming, Scala, Play framework, Structure]
 ---
 
 ## Overview
