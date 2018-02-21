@@ -53,6 +53,8 @@ defaults:
       path: ""
       type: posts
     values:
+      sidebar:
+        nav: "posts"
       comments: true
   # _pages
   - scope:

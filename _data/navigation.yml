@@ -5,3 +5,32 @@ main:
     url: /about/
   - title: "Tags"
     url: /tags/
+  - title: "Categories"
+    url: /categories/
+
+posts:
+  - title: Back-End
+    children:
+#      - title: "Play Framework"
+#        url: /categories/#playframework
+      - title: "Docker"
+        url: /categories/#docker
+      - title: "Linux"
+        url: /categories/#linux
+      - title: "Elasticsearch"
+        url: /categories/#elasticsearch
+
+  - title: Front-End
+    children:
+      - title: "Jekyll"
+        url: /categories/#blog
+
+#  - title: Client
+#    children:
+#      - title: "iOS"
+#        url: /docs/configuration/
+
+  - title: Programing
+    children:
+      - title: "Scala"
+        url: /categories/#scala
