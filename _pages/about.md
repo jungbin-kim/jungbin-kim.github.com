@@ -3,18 +3,18 @@ title: About
 permalink: /about/
 ---
 
-# Interest
+## Interest
 - Virtual Reality
 - Augmented Reality
 - Programming
 
-# Experience
+## Experience
 - 2015~Current, Software Engineer in [Letsee, Inc.](https://www.letsee.io/)
 - 2013~2015, Master student in HCI & Robotics at University of Science and Technology ([UST](https://www.ust.ac.kr/)), Daejeon, Korea. 
 ([KIST](https://www.kist.re.kr/kist_web/main/) Campus)
 - 2007~2013, B.S. degree in School of Electrical and Computer Engineering at University of Seoul, Seoul, Korea.
 
-# Skill
+## Skill
 - *Scala* 
     + Play Framework
     + SBT
@@ -25,7 +25,7 @@ permalink: /about/
     
 - *Swift3 for iOS*
 
-# Publication
+## Publication
 - [Jungbin Kim, Byounghyun Yoo, and Heedong Ko, "Tour Cloud Mobile: Helping Tourists Acquire the Information Effectively Using Three Types of Views," IEEE International Conference on Consumer Electronics (IEEE ICCE), Las Vegas, NV, USA, Jan 9-12, 2015, pp.706-707.](https://doi.org/10.1109/ICCE.2015.7066573)
 - [Jungbin Kim, Joohyun Lee, Byounghyun Yoo, Sangchul Ahn, and Heedong Ko, "[Poster] View Management for Webized Mobile AR Contents," IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Munich, Germany, Sep 10-12, 2014, pp.271-272.](http://dx.doi.org/10.1109/ISMAR.2014.6948445)
 - [Sangchul Ahn, Joohyun Lee, Jinwoo Kim, Sungkuk Chun, Jungbin Kim, Iltae Kim, Junsik Shim, Byounghyun Yoo, and Heedong Ko, "[DEMO] Insight: Webized Mobile AR and Real-life Use Cases," IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Munich, Germany, Sep 10-12, 2014, pp.325-326.](http://dx.doi.org/10.1109/ISMAR.2014.6948471)
@@ -35,6 +35,6 @@ permalink: /about/
 - [전인찬, 김정빈, 김지희, 안소영, 최성종, 이재호. (2013). 이기종 경보 시스템 서버와 통합 재난 경보 게이트웨이 연계 프로토콜 스키마 분석. 한국방송미디어공학회 학술발표대회 논문집, , 252-253.](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE02256286)
 - [전인찬, 김지희, 김정빈, 안소영, 최성종. (2013). 이기종 경보 시스템 서버와 통합 재난 경보 게이트웨이 연계 프로토콜 분석. 한국방송미디어공학회 학술발표대회 논문집, , 254-255.](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE02256287)
 
-# Contact me
+## Contact me
 - [Linked in](https://www.linkedin.com/in/jungbin-kim-165300a3?trk=hp-identity-name)
 - [e-mail](mailto:mail@jungbin.kim?subject=Hello)
