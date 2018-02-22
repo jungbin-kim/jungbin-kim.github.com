@@ -20,6 +20,9 @@ permalink: /about/
     + SBT
     + Akka
 - *Web (HTML5, CSS3, JavaScript)*
+    + AngularJS, VueJS
+    + Webpack2
+    
 - *Swift3 for iOS*
 
 # Publication
