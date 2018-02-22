@@ -7,6 +7,8 @@ main:
     url: /tags/
   - title: "Categories"
     url: /categories/
+  - title: Notes
+    url: /notes/
 
 posts:
   - title: Back-End
@@ -34,3 +36,6 @@ posts:
     children:
       - title: "Scala"
         url: /categories/#scala
+
+  - title: Notes
+    url: /notes/
