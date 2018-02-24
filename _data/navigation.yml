@@ -37,5 +37,13 @@ posts:
       - title: "Scala"
         url: /categories/#scala
 
+notes:
   - title: Notes
     url: /notes/
+    children:
+      - title: "Programming"
+        url: /notes/#programming
+      - title: "Jekyll"
+        url: /notes/#jekyll
+      - title: "iOS"
+        url: /notes/#ios
