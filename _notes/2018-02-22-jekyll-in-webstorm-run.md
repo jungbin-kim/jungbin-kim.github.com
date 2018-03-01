@@ -13,4 +13,4 @@ jekyll을 webstorm 에서 Run button으로 돌리는 방법 조사.
 
 `File > Settings > Tools > External Tools` 에서 terminal에서 사용하던 `jekyll` 명령어 추가
 
-- [Maintaining A Jekyll Site Using WebStorm](https://aevyz.github.io/adv-jekyll/Maintaining-A-Jekyll-Site-Using-Webstorm.html) 내 `Testing Your Site`
+- [Maintaining A Jekyll Site Using WebStorm](https://aevyz.github.io/adv-jekyll/Maintaining-A-Jekyll-Site-Using-Webstorm.html/#test) 내 `Testing Your Site`
