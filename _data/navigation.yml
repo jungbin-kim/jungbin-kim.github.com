@@ -21,17 +21,14 @@ posts:
         url: /categories/#linux
       - title: "Elasticsearch"
         url: /categories/#elasticsearch
-
   - title: Front-End
     children:
       - title: "Jekyll"
         url: /categories/#jekyll
-
-#  - title: Client
-#    children:
-#      - title: "iOS"
-#        url: /categories/#
-
+  - title: Client
+    children:
+      - title: "iOS"
+        url: /categories/#ios
   - title: Programming
     children:
       - title: "Scala"
