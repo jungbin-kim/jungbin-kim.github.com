@@ -16,7 +16,7 @@ tags: [JavaScript, AngularJS]
 
 하지만, 위의 코드는 copy & paste 시 문자가 입력되며, 한글이 입력되는 현상 존재. 
 그래서 아래와 같이 개선함. AngularJS v1.6.6에서 사용.
-{% jsfiddle k1sx2xj5 result,js,html %}
+{% jsfiddle k1sx2xj5 result,js,html iframe %}
 
 ## 참고
 - [input에 숫자만 입력받기](http://naminsik.com/blog/3384)
