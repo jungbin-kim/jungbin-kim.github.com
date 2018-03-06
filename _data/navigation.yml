@@ -40,7 +40,13 @@ notes:
     children:
       - title: "Programming"
         url: /notes/#programming
+      - title: "JavaScript"
+        url: /notes/#javascript
       - title: "Jekyll"
         url: /notes/#jekyll
       - title: "iOS"
         url: /notes/#ios
+      - title: "Swift3"
+        url: /notes/#swift3
+      - title: "Linux"
+        url: /notes/#linux
