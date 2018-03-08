@@ -36,3 +36,9 @@ $ ruby {target script name}.rb
 위의 두개는 제대로 데이터를 가져오는 사이트가 있고, 못 가져오는 사이트가 있었음. 
 이 라이브러리는 테스트한 URL들은 정상적으로 가져옴.
 {% gist jungbin-kim/20d048ba0b168386a0962f2fe0aaf9f2 @metainspector.rb %}
+
+- 결과
+```sh
+$ ruby metainspector_script.rb
+{"name"=>{"description"=>["OverviewSwift3 의 Alamofire 라이브러리를 사용하여 callback 함수로 API request를 구현.하지만, callback 함수 부분이 가독성이 떨어지는 것 같아 코드를 리팩토링해보기로 결정.AngularJS에서 defer 객체를 통한 Promise와 Scala의 Future, Promise 등과 같이 익숙한 형태를 찾아봄.Swift에서 Promise 패턴을 사용할 수 있는 라이브러리인 PromiseKit과 Alamofire을 확장한 PromiseKit+Alamofire을 발견하고 사용."], "author"=>["Jungbin Kim"], "handheldfriendly"=>["True"], "mobileoptimized"=>["320"], "viewport"=>["width=device-width, initial-scale=1.0"]}, "http-equiv"=>{}, "property"=>{"og:locale"=>["en_US"], "og:site_name"=>["Jungbin's Blog"], "og:title"=>["Swift3(PromiseKit)으로 Async 사용해보기"], "og:description"=>["OverviewSwift3 의 Alamofire 라이브러리를 사용하여 callback 함수로 API request를 구현.하지만, callback 함수 부분이 가독성이 떨어지는 것 같아 코드를 리팩토링해보기로 결정.AngularJS에서 defer 객체를 통한 Promise와 Scala의 Future, Promise 등과 같이 익숙한 형태를 찾아봄.Swift에서 Promise 패턴을 사용할 수 있는 라이브러리인 PromiseKit과 Alamofire을 확장한 PromiseKit+Alamofire을 발견하고 사용."], "og:type"=>["article"], "article:published_time"=>["2018-03-04T10:01:45+00:00"]}, "charset"=>["utf-8"]}
+```
