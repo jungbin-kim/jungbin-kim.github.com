@@ -19,5 +19,4 @@ ruby RUBY_VERSION
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 gem "jekyll", "~> 3.5"
 gem "minimal-mistakes-jekyll"
-
-
+gem 'metainspector'
