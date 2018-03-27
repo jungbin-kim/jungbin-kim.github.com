@@ -9,7 +9,7 @@
 # Examples:
 #
 # Input: {% reference https://blog.jungbin.kim/notes/2018-03-08-ruby-libs-get-html-meta/ %}
-#
+# Input: {% reference /notes/2018-03-08-ruby-libs-get-html-meta/ %}
 
 require 'metainspector'
 require 'uri'
@@ -17,6 +17,10 @@ require 'uri'
 module Jekyll
   class ReferenceURL < Liquid::Tag
     def initialize(tag_name, url, tokens)
+      unless url.match(/^http/) || url.match(/^https/)
+        baseURL = Jekyll.configuration({})['url']
+        url = "#{baseURL}#{url}"
+      end
       @target_url = url.strip
     end
 
