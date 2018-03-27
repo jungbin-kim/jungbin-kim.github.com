@@ -2,5 +2,6 @@ figure img {
     margin: auto;
 }
 figure figcaption {
+    width: 100%;
     text-align: center;
 }

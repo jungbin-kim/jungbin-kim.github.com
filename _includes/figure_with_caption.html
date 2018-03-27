@@ -1,6 +1,12 @@
 <link rel="stylesheet" href="/assets/figure.css">
 
+{% if include.width %}
+{% assign width = include.width %}
+{% else %}
+{% assign width = "100%" %}
+{% endif %}
+
 <figure>
-    <img src="{{ include.url }}" alt="{{ include.description }}">
+    <img src="{{ include.url }}" style="width: {{ width }};" alt="{{ include.description }}">
     <figcaption>{{ include.title }}</figcaption>
 </figure>
