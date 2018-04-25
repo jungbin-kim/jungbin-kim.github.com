@@ -7,9 +7,46 @@ tags: [Jekyll, Ruby, Github, GithubPage, Blog]
 ---
 
 Jekyll로 블로그를 시작해보기 위해 설치하는 동안 만난 에러들과 설치 방법들
+(전체적으로 수정 2018.04.26)
 
-## Errors
+## Intall
+```bash
+# Jekyll 설치
+$ gem install jekyll
 
+# 만약 특정 버전에 jekyll이 필요하다면, 다음과 같이 함
+$ gem install jekyll -v 3.7.3
+```
+
+Gem dependencies를 설치해주는데 필요한 bundler를 설치.
+[참고](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/#requirements)
+
+```bash
+# Install bundler for library dependencies
+$ gem install bundler
+Fetching: bundler-1.16.1.gem (100%)
+Successfully installed bundler-1.16.1
+...
+```
+
+설정한 뒤에 블로그 프로젝트 위치에 가서 library dependencies 다운로드. 
+[참고](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/#step-2-install-jekyll-using-bundler)
+
+```bash
+$ cd {blog/project/path}
+
+# Download library dependencies
+$ bundle install
+```
+
+## Run Local
+로컬에서 jekyll 서버 돌리기 디폴트 포트 4000
+
+```bash
+$ jekyll serve --draft
+```
+
+## Error Handling
 ### gem install File Permission Error
 
 ```bash
@@ -60,31 +97,11 @@ Rbenv init의 결과로 나온 것을 참고하여 ~/.bash_profile에 `eval "$(r
     계속 에러가 나는 이유는 global ruby가 바뀌지 않아서였음. 
     [rbenv github command](https://github.com/rbenv/rbenv#command-reference)를 참고하여 다음 두가지 방법들을 적용해봄 (1, 2는 순서 아님)  
     ```bash
-    // 1. Change global ruby version
+    // 방법 1. Change global ruby version
     $ rbenv global {ruby version}
     
-    // 2. Change local projcet ruby version by using rbenv 
+    // 방법 2. Change local projcet ruby version by using rbenv 
     $ cd {local project}
     $ rbenv local 2.4.1
     ```
 
-## Install dependencies
-Gem dependencies를 설치해주는데 필요한 bundler를 설치 [참고](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/#requirements)
-
-```bash
-$ gem install bundler
-```
-
-설정한 뒤에 git clone 한 곳에 있는 위치에 가서 dependencies 설치 해줌 [참고](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/#step-2-install-jekyll-using-bundler)
-
-```bash
-$ cd {blog/project/path}
-$ bundle install
-```
-
-## Test Local
-로컬에서 jekyll 서버 돌리기 디폴트 포트 4000
-
-```bash
-$ jekyll serve --draft
-```
