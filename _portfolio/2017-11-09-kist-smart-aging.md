@@ -18,5 +18,5 @@ categories: [project]
     + [ES6](http://es6-features.org/)
     
 - 개발 성과
-<iframe width="640" height="360" src="https://www.youtube.com/embed/iGFtKsUx-E8?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/iGFtKsUx-E8?ecver=1&start=36" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
