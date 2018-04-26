@@ -25,18 +25,18 @@ categories: [project]
     + [jQuery](https://jquery.com/) (v1.9.1)
     + [three.js](https://threejs.org/) (r70): Javascript 3D library
     
-#### 개발 성과
+## 개발 성과
 - HTML5 기반 실감 체험형 투어 스토리텔링 콘텐츠 서비스 개발
-[![Video Label](http://img.youtube.com/vi/NaQOTZcWoH8/0.jpg)](https://youtu.be/NaQOTZcWoH8)
+<iframe width="640" height="360" src="https://www.youtube.com/embed/NaQOTZcWoH8?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 - 모바일 상황인지 기반 어플리케이션 내  음성 여행 내비게이션 서비스
-[![Video Label](http://img.youtube.com/vi/irmZkeUwVyk/0.jpg)](https://youtu.be/irmZkeUwVyk)
+<iframe width="640" height="360" src="https://www.youtube.com/embed/irmZkeUwVyk?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 - 모바일 상황인지 기반 투어가이드 어플리케이션 내 동궐도 AR 콘텐츠
-[![Video Label](http://img.youtube.com/vi/E-knjhPfk0g/0.jpg)](https://youtu.be/E-knjhPfk0g)
+<iframe width="640" height="360" src="https://www.youtube.com/embed/E-knjhPfk0g?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 - 모바일 상황인지 기반 투어가이드 어플리케이션 내 여행 기록 수집 및 저장
-[![Video Label](http://img.youtube.com/vi/NJYLstusieU/0.jpg)](https://youtu.be/NJYLstusieU)
+<iframe width="640" height="360" src="https://www.youtube.com/embed/NJYLstusieU?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ---    
 [^1]: [TourCloud project page link](http://project.tourcloud.org)

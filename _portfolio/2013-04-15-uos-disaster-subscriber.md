@@ -9,15 +9,15 @@ image: ""
 categories: [project]
 ---
 
-# 서울시립대학교(University of Seoul, UOS) Multimedia Lab 학부연구생 Project 
+# 서울시립대학교 Multimedia Lab Project 
 - 주제: Windows Azure를 이용한 재난 알림 서비스
 - 기간: 2013년 1월 7일 ~ 4월 15일
 - C#, Azure를 이용한 window8 어플리케이션 개발
 
-#### 데모 영상 (Demo video)
-[![Video Label](http://img.youtube.com/vi/CyP6T1rnWso/0.jpg)](https://youtu.be/CyP6T1rnWso) 
+## 데모 영상 (Demo video)
+<iframe width="640" height="360" src="https://www.youtube.com/embed/CyP6T1rnWso?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-#### 상세 내용[^1]
+## 상세 내용[^1]
 + 개발 목적
     - 최근 세계 곳곳에서는 재난 발생이 증가하고 있으며, 재난의 규모 또한 커지고 있다. 
      이러한 재난을 예방하고 대응하기 위한 중요한 것 중 하나는 재난이 발생하였을 때 그 재난과 관계된 사람들에게 신속하게 전달하는 것이다. 

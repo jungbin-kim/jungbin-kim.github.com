@@ -18,7 +18,7 @@ categories: [project]
     + [arborjs](https://github.com/samizdatco/arbor): A graph visualization library built with web workers and jQuery
     + jquery
 
-#### 성과
+## 성과
 - [HCIK 2014 학술대회 Poster](../2014-02-13-hcik-best-poster-award) 
     + Book Information Retrieval Interface Base on Web-based AR [^1]
     + 카메라를 통해 식별된 책에 대한 관련 정보를 아마존닷컴 (amazon.com)에서 가져와 책에 직접 증강. 
@@ -29,7 +29,8 @@ categories: [project]
     + [DEMO] Insight: Webized Mobile AR and Real-life Use Cases [^3]
     + 책을 비춰보고 있는 사용자의 상황에 맞게, 증강된 각 요소 별 세부 레이아웃들이 동적으로 변경됨.
 
-[![Video Label](http://img.youtube.com/vi/uZw_jy4tuAM/0.jpg)](https://youtu.be/uZw_jy4tuAM)
+## 데모 영상 (Demo video)
+<iframe width="640" height="360" src="https://www.youtube.com/embed/uZw_jy4tuAM?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ---    
 [^1]: Jungbin Kim, Joohyun Lee, Sangchul Ahn, and Heedong Ko, “Book Information Retrieval Interface Base on Web-based AR,” HCI 2014, 2014.2, pp.655-658

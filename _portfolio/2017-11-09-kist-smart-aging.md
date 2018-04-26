@@ -18,6 +18,5 @@ categories: [project]
     + [ES6](http://es6-features.org/)
     
 - 개발 성과
-
-[![Video Label](http://img.youtube.com/vi/iGFtKsUx-E8/0.jpg)](https://youtu.be/iGFtKsUx-E8?t=36s)
+<iframe width="640" height="360" src="https://www.youtube.com/embed/iGFtKsUx-E8?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 

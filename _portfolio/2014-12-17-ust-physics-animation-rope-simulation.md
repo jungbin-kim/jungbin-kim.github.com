@@ -15,7 +15,7 @@ categories: [project]
 - 현실 물리 세계 법칙에 따른 동작 공식을 JavaScript로 구현하였으며, 그 공식에 따라 움직이는 물체들을 Three.js를 이용하여 Virtual 3D 공간에 표현. 
 - [Github 정리 페이지](https://github.com/jungbin-kim/web/tree/master/threejs/physics-animation/term-project)
 
-#### Goal
+## Goal
 1. Model a rope with multiple particles
 2. Implement bending feature
 3. Use of implicit integrator
@@ -23,7 +23,7 @@ categories: [project]
  - Against surroundings
  - Rope / Rope interaction
 
-#### Procedure
+## Procedure
 1. Modeling
  - Particle
  - Rope
@@ -35,23 +35,21 @@ categories: [project]
  - between Particle and Plane
  - between Ropes
 
-#### Result
+## Result
 - Implicit Euler Method
-
-[![Link](http://img.youtube.com/vi/urBGSMNdgpQ/0.jpg)](http://www.youtube.com/watch?v=urBGSMNdgpQ)
+<iframe width="640" height="360" src="https://www.youtube.com/embed/urBGSMNdgpQ?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 - Explicit Euler Method
+<iframe width="640" height="360" src="https://www.youtube.com/embed/-FTIIJMbzqM?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-[![Link](http://img.youtube.com/vi/-FTIIJMbzqM/0.jpg)](http://www.youtube.com/watch?v=-FTIIJMbzqM)
-
-#### Conclusion
+## Conclusion
 1. Collision particle and plane
  - Sometimes miss the collision (tunneling effect)
 2. Collision between ropes method is not that efficient
 3. Compare to explicit method
  - more stable
 
-#### Reference
+## Reference
 [Physics for JavaScript Games Animation Simulations](https://github.com/devramtal/Physics-for-JavaScript-Games-Animation-Simulations)
 
 ***

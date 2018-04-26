@@ -28,8 +28,5 @@ categories: [project]
     + Back End: Play framework 2.4 for scala
     + DBMS: MariaDB
 
-
-    
-#### 서비스 영상
-
-[![Video Label](http://img.youtube.com/vi/cxmXwmIg1co/0.jpg)](https://youtu.be/cxmXwmIg1co)
+## 서비스 영상
+<iframe width="640" height="360" src="https://www.youtube.com/embed/cxmXwmIg1co?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

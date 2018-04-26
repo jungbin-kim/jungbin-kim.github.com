@@ -9,4 +9,4 @@ categories: [award]
 - 주최: (사)한국 HCI 학회
 - Book Information Retrieval Interface Based on Web-based AR
 
-[![Video Label](http://img.youtube.com/vi/eIixk_q3aPA/0.jpg)](https://youtu.be/eIixk_q3aPA) 
+<iframe width="640" height="360" src="https://www.youtube.com/embed/eIixk_q3aPA?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

@@ -8,6 +8,6 @@ categories: [award]
 - 2010년도 벤처 육성정책 아이디어 공모전 UCC 부문 장려상
 - 주최: (사)벤처기업협회(KOVA, Korea Venture Business Association)
 
-[![Video Label](http://img.youtube.com/vi/mfwI5hZyUA4/0.jpg)](https://youtu.be/mfwI5hZyUA4) 
+<iframe width="640" height="360" src="https://www.youtube.com/embed/mfwI5hZyUA4?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 [공모전 공지 링크](http://ventureidea.tistory.com/)
