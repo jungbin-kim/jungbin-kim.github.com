@@ -68,12 +68,23 @@ $ sls create -t aws-scala-sbt -p {project path}
 어떤 권한이 필요한지는 deploy 를 해보면서 에러를 보고 파악한 뒤 추가. 
 
 ### Setting & Run
-설치한 뒤, Serverless config인 `serverless.yml`에서 지역만 서울 리전 `ap-northeast-2`으로 수정함. 
+- 설치한 뒤, Serverless config인 `serverless.yml`에서 지역만 서울 리전 `ap-northeast-2`으로 수정함.
 
+- sbt로 scala 프로젝트 빌드. 
+(build.sbt 파일에서 별다른 수정을 하지 않았다면, 
+`{프로젝트 루트}/target/scala-2.12` 경로에 `hello.jar`이 생성)
+```sh
+$ sbt assembly
+```
+
+- 빌드된 jar 파일을 AWS에 업로드 
 ```sh
 # Deploy on AWS
 $ sls deploy -v
+```
 
+- 로컬에서 펑션 테스트
+```sh
 # Run local
 $ sls invoke -f hello -l
 ```
