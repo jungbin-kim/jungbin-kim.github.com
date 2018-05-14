@@ -28,6 +28,8 @@ default password는 `neo4j`.
     + 7474: for http
     + 7473: for https
     + 7687: Connect bolt (웹소켓으로 DB 접속하는 port 인듯)
+- docker image를 데몬 모드(백그라운드)로 돌리고 싶을 경우, 
+`docker run -d` 와 같이 `-d` detach 옵션을 추가해서 실행.  
 
 ### Trouble shooting
 웹 브라우저로 접속하여 로그인을 할 때 다음과 같은 메시지가 나오며 로그인이 안됨.
