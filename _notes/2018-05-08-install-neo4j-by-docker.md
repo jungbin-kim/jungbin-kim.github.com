@@ -11,7 +11,7 @@ tags: [Docker, Neo4j]
 ## Neo4j Docker로 설치하기
 
 테스트 서버 (OS 우분투) 내 docker에서 Neo4j [Docker Image](https://hub.docker.com/_/neo4j/)를
-다운받아서 실행. 
+다운받아서 실행.(현재 Neo4j v3.3.5)
 
 ```sh
 $ docker pull neo4j
