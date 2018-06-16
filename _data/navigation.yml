@@ -38,15 +38,15 @@ notes:
   - title: Notes
     url: /notes/
     children:
-      - title: "Programming"
-        url: /notes/#programming
       - title: "Web"
         url: /notes/#web
       - title: "Jekyll"
         url: /notes/#jekyll
       - title: "iOS"
         url: /notes/#ios
-      - title: "Swift3"
-        url: /notes/#swift3
       - title: "Linux"
         url: /notes/#linux
+      - title: "DB"
+        url: /notes/#db
+      - title: "Configuration"
+        url: /notes/#config

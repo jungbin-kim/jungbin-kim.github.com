@@ -4,7 +4,7 @@ title: How to clone submodule on git project
 date: 2018-02-24 12:20:08 +0900
 published: true
 comments: true
-categories: [Programming]
+categories: [Config]
 tags: [Git, Programming, Development]
 ---
 

@@ -4,8 +4,8 @@ title: Import CSV file on Neo4j docker image
 date: 2018-05-20 17:04:12 +0900
 published: true
 comments: true
-categories: [Graph DB]
-tags: [Docker, Neo4j]
+categories: [DB]
+tags: [Graph DB, Neo4j, Docker]
 ---
 
 ## Neo4j Docker에 CSV 파일 import 하기

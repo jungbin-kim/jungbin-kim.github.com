@@ -4,8 +4,8 @@ title: Install Neo4j by Docker
 date: 2018-05-08 13:35:10 +0900
 published: true
 comments: true
-categories: [Graph DB]
-tags: [Docker, Neo4j]
+categories: [DB]
+tags: [Graph DB, Neo4j, Docker]
 ---
 
 ## Neo4j Docker로 설치하기

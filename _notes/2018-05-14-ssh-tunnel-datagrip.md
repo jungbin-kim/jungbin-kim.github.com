@@ -4,8 +4,8 @@ title: Use SSH tunnel on DataGrip
 date: 2018-05-14 20:34:48 +0900
 published: true
 comments: true
-categories: [IDE]
-tags: [DataGrip]
+categories: [Config]
+tags: [IDE, DataGrip]
 ---
 
 ## DataGrip에서 SSH tunnel 사용하기

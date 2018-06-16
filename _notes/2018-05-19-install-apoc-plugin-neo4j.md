@@ -4,8 +4,8 @@ title: Install APOC plugin for Neo4j
 date: 2018-05-19 13:17:03 +0900
 published: true
 comments: true
-categories: [Graph DB]
-tags: [Docker, Neo4j]
+categories: [DB]
+tags: [Graph DB, Neo4j, Docker]
 ---
 
 ## APOC Plugin for Neo4j Docker에 설치하기
