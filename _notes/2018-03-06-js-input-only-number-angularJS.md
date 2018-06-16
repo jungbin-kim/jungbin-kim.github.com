@@ -4,7 +4,7 @@ title: How to filter number at input element on AngularJS
 date: 2018-03-06 21:36:54 +0900
 published: true
 comments: true
-categories: [JavaScript]
+categories: [Web]
 tags: [JavaScript, AngularJS]
 ---
 

@@ -40,8 +40,8 @@ notes:
     children:
       - title: "Programming"
         url: /notes/#programming
-      - title: "JavaScript"
-        url: /notes/#javascript
+      - title: "Web"
+        url: /notes/#web
       - title: "Jekyll"
         url: /notes/#jekyll
       - title: "iOS"
