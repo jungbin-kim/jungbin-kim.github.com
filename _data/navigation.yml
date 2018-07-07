@@ -50,3 +50,5 @@ notes:
         url: /notes/#db
       - title: "Configuration"
         url: /notes/#config
+      - title: "Tool"
+        url: /notes/#tool
