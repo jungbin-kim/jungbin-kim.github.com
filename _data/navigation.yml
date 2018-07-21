@@ -33,6 +33,8 @@ posts:
     children:
       - title: "Scala"
         url: /categories/#scala
+      - title: "Machine Learning"
+        url: /categories/#machinelearning
 
 notes:
   - title: Notes
