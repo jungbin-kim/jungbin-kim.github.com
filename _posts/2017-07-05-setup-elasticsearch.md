@@ -29,6 +29,9 @@ $ sudo apt-get install oracle-java8-installer
 ### Using [APT](https://en.wikipedia.org/wiki/APT_(Debian))
 - Install
 ```sh
+# Import the Elasticsearch PGP Keyedit
+$ wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
+
 # Installing from the APT repository
 $ sudo apt-get install apt-transport-https
 $ echo "deb https://artifacts.elastic.co/packages/5.x/apt stable main" | sudo tee -a /etc/apt/sources.list.d/elastic-5.x.list
