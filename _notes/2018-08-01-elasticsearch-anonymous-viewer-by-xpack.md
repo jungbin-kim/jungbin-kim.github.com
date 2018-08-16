@@ -9,7 +9,7 @@ tags: [Elasticsearch]
 ---
 
 ## x-pack으로 임의의 유저만 elasticsearch 데이터 read가 가능하고, 인증 받은 관리자만 데이터 수정 가능하게 만들기
-[Setup Elasticsearch](https://blog.jungbin.kim/elasticsearch/2017/07/05/setup-elasticsearch.html) 글을 따라 설치한 Elasticsearch는 인증 받지 못한 사용자가 REST API 를 통해 데이터 조작이 가능함.
+[Setup Elasticsearch]({{site.baseUrl}}/notes/2017-07-05-elasticsearch-setup/) 글을 따라 설치한 Elasticsearch는 인증 받지 못한 사용자가 REST API 를 통해 데이터 조작이 가능함.
 그래서, 인증하지 않은 임의의 유저(Anonymous)는 `read`만 가능하고, 인증을 통하여서만 데이터 조작이 가능하도록 함.
 
 ## x-pack 설치
