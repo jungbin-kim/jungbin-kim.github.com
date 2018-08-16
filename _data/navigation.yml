@@ -15,12 +15,12 @@ posts:
     children:
       - title: "Play Framework"
         url: /categories/#playframework
+      - title: "Spring"
+        url: /categories/#spring
       - title: "Docker"
         url: /categories/#docker
       - title: "Linux"
         url: /categories/#linux
-      - title: "Elasticsearch"
-        url: /categories/#elasticsearch
   - title: Front-End
     children:
       - title: "Jekyll"
