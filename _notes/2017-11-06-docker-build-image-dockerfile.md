@@ -2,11 +2,10 @@
 layout: post
 title: How to build docker image from dockerfile
 date: 2017-11-06 21:31:00 +0900 
-type: post
 published: true
 comments: true
-categories: [Docker]
-tags: [Docker file, Docker]
+categories: [Tool]
+tags: [Docker, Dockerfile]
 ---
 
 ## Overview
@@ -16,18 +15,19 @@ JRE 8u151이 설치된 Oracle linux v7.2 docker image 환경에서 돌아가는�
 Dockerfile을 이용하여 docker image를 만들어봄.
 
 ## Prerequisites
-이전 포스트 [How to setup docker on macOS]({% post_url 2017-06-03-setup-docker-on-macos %})를
+이전 포스트 [How to setup docker on macOS]({{site.baseUrl}}/notes/2017-06-03-docker-setup-macos/)를
 참고하여 docker-machine 내에서 작업.
 
 ## Implementation 
 docker로 테스트한 과정은 다음과 같다.
 
 ### 1. Build oracle linux 7.2 docker image by using Dockerfile
-- docker-machine에 접속 [docker-machine 관련 명령어](https://gist.github.com/jungbin-kim/d0c8a41d3c72ebdace3c4d5acaa017e4#file-docker-machine-sh)
+- ~~docker-machine에 접속~~ [docker-machine 관련 명령어](https://gist.github.com/jungbin-kim/d0c8a41d3c72ebdace3c4d5acaa017e4#file-docker-machine-sh)
 ```sh
 # macOS 내에서 실행되고 있는 docker Machine에 SSH 접속
 $ docker-machine ssh dev
 ```
+<span style="color:red">**NOTES:** Docker for Mac 업데이트로 인해 Docker machine에 따로 접속하지 않고 터미널에서 docker 명령어 실행 가능. (2018.08 확인)</span>
 
 - docker-file을 만들고 이미지 빌드
 {% gist jungbin-kim/d0c8a41d3c72ebdace3c4d5acaa017e4 build-dockerfile.sh %}

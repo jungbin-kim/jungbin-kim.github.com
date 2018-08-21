@@ -2,18 +2,19 @@
 layout: post
 title: How to setup docker on macOS
 date: 2017-06-03 22:17:47 +0900 
-type: post
 published: true
 comments: true
-categories: [Docker]
-tags: [Setup environment, 환경설정, ubuntu, Docker]
+categories: [Tool]
+tags: [Docker]
 ---
 
 ## Overview
-Docker를 brew로 macOS에 설치하는 방법에 관한 포스트.  
+Docker를 brew로 macOS에 설치하는 방법에 관한 포스트.
 Docker 공식 홈페이지에서는 [Docker for Mac](https://www.docker.com/docker-mac)이라는 dmg 파일을 
-[다운로드](https://store.docker.com/editions/community/docker-ce-desktop-mac) 받아
-설치하는 방법을 소개함. 
+[다운로드](https://store.docker.com/editions/community/docker-ce-desktop-mac) 받아 설치하는 방법을 소개함.
+
+<span style="color:red">**2018.08 확인 사항으로 위의 다운로드 링크에서 dmg 파일 받아서 설치만 하면 됨. 아래 방법은 개인적으로는 deprecated.**</span>
+
 Docker for Mac과 Docker toolbox의 구체적인 차이점은 [공식 문서](https://docs.docker.com/docker-for-mac/docker-toolbox/) 참고.
 
 - Docker for Mac

@@ -17,8 +17,6 @@ posts:
         url: /categories/#playframework
       - title: "Spring"
         url: /categories/#spring
-      - title: "Docker"
-        url: /categories/#docker
       - title: "Linux"
         url: /categories/#linux
   - title: Front-End
