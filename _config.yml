@@ -33,6 +33,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-redirect-from
 
 collections:
   portfolio:
