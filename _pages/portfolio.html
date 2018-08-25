@@ -52,7 +52,7 @@ AWS, Google, Firebase
         <th> Time </th>
         <th> Title </th>
     </tr>
-    {% for portfolio in site.portfolio %}
+    {% for portfolio in site.portfolio reversed %}
     <!-- @TODO Filtering inefficiently -->
         {% if portfolio.categories contains "award" or portfolio.categories contains "grant" %}
         <tr>
@@ -88,7 +88,7 @@ AWS, Google, Firebase
         <i>IEEE International Symposium on Mixed and Augmented Reality (ISMAR)</i>, Munich, Germany, Sep 10-12, 2014, pp.271-272.
     </td></tr>
     <tr><td>
-        Sangchul Ahn, Joohyun Lee, Jinwoo Kim, Sungkuk Chun, Jungbin Kim, Iltae Kim, Junsik Shim, Byounghyun Yoo, and Heedong Ko,
+        Sangchul Ahn, Joohyun Lee, Jinwoo Kim, Sungkuk Chun, <b>Jungbin Kim</b>*, Iltae Kim, Junsik Shim, Byounghyun Yoo, and Heedong Ko,
         <a href="http://dx.doi.org/10.1109/ISMAR.2014.6948471">"[DEMO] Insight: Webized Mobile AR and Real-life Use Cases,"</a>
         <i>IEEE International Symposium on Mixed and Augmented Reality (ISMAR)</i>, Munich, Germany, Sep 10-12, 2014, pp.325-326.
     </td></tr>
@@ -101,5 +101,20 @@ AWS, Google, Firebase
         Joohyun Lee, Jinwoo Kim, <b>Jungbin Kim</b>*, Sangchul Ahn, and heedong Ko,
         <a href="http://www.dbpia.co.kr/Journal/ArticleDetail/NODE02374559">"Augented Reality-based Scoring System,"</a>
         <i>HCI 2014</i>, 2014.2, pp.141-143
+    </td></tr>
+    <tr><td>
+        <b>김정빈</b>*, 최성종. (2013).
+        <a href="http://www.dbpia.co.kr/Journal/ArticleDetail/NODE02256265">Windows Azure 를 이용한 재난 알림 서비스.</a>
+        <i>한국방송미디어공학회 학술발표대회 논문집</i>, , 206-208.
+    </td></tr>
+    <tr><td>
+        전인찬, <b>김정빈</b>*, 김지희, 안소영, 최성종, 이재호. (2013).
+        <a href="http://www.dbpia.co.kr/Journal/ArticleDetail/NODE02256286">이기종 경보 시스템 서버와 통합 재난 경보 게이트웨이 연계 프로토콜 스키마 분석</a>.
+        <i>한국방송미디어공학회 학술발표대회 논문집</i>, , 252-253.
+    </td></tr>
+    <tr><td>
+        전인찬, 김지희, <b>김정빈</b>*, 안소영, 최성종. (2013).
+        <a href="http://www.dbpia.co.kr/Journal/ArticleDetail/NODE02256287">이기종 경보 시스템 서버와 통합 재난 경보 게이트웨이 연계 프로토콜 분석</a>.
+        <i>한국방송미디어공학회 학술발표대회 논문집</i>, , 254-255.
     </td></tr>
 </table>
