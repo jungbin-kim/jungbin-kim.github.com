@@ -32,10 +32,10 @@ AWS, Google, Firebase
     <tr>
         <td>
             {% assign content = portfolio.content | strip_newlines %}
-            {% if content == ""  %}
-            {{ portfolio.title }}
+            {% if content != ""  or portfolio.redirect_to %}
+                <a href="{{ portfolio.url }}">{{ portfolio.title }}</a>
             {% else %}
-            <a href="{{ portfolio.url }}">{{ portfolio.title }}</a>
+                {{ portfolio.title }}
             {% endif %}
         </td>
         <td>{{ portfolio.company }}</td>
@@ -59,10 +59,10 @@ AWS, Google, Firebase
     <tr>
         <td>
             {% assign content = portfolio.content | strip_newlines %}
-            {% if content == ""  %}
-            {{ portfolio.title }}
+            {% if content != ""  or portfolio.redirect_to %}
+                <a href="{{ portfolio.url }}">{{ portfolio.title }}</a>
             {% else %}
-            <a href="{{ portfolio.url }}">{{ portfolio.title }}</a>
+                {{ portfolio.title }}
             {% endif %}
         </td>
         <td>{{ portfolio.skills | join: ", " }}</td>
@@ -85,10 +85,10 @@ AWS, Google, Firebase
         <tr>
             <td>
                 {% assign content = portfolio.content | strip_newlines %}
-                {% if content == ""  %}
-                    {{ portfolio.title }}
-                {% else %}
+                {% if content != ""  or portfolio.redirect_to %}
                     <a href="{{ portfolio.url }}">{{ portfolio.title }}</a>
+                {% else %}
+                    {{ portfolio.title }}
                 {% endif %}
             </td>
             <td>{{ portfolio.time }}</td>
