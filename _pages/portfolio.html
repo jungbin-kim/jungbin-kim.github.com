@@ -16,18 +16,20 @@ Cloud
 AWS, Google, Firebase
 -->
 
-<h4>Projects</h4>
+<!-- @TODO Filtering inefficiently -->
+
+<h3>Projects</h3>
 <table>
     <tr>
-        <th> Time </th>
         <th> Title </th>
+        <th> Company </th>
         <th> Skills </th>
+        <th> Time </th>
     </tr>
     {% for portfolio in site.portfolio reversed %}
-    <!-- @TODO Filtering inefficiently -->
-    {% if portfolio.categories contains "project" %}
+
+    {% if portfolio.categories contains "project" and portfolio.categories.size == 1 %}
     <tr>
-        <td>{{ portfolio.time }}</td>
         <td>
             {% assign content = portfolio.content | strip_newlines %}
             {% if content == ""  %}
@@ -36,9 +38,35 @@ AWS, Google, Firebase
             <a href="{{ portfolio.url }}">{{ portfolio.title }}</a>
             {% endif %}
         </td>
+        <td>{{ portfolio.company }}</td>
+        <td>{{ portfolio.skills | join: ", " }}</td>
+        <td>{{ portfolio.time }}</td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+</table>
+
+<h3>Personal Projects(Including Student)</h3>
+<table>
+    <tr>
+        <th> Title </th>
+        <th> Skills </th>
+        <th> Time </th>
+    </tr>
+    {% for portfolio in site.portfolio reversed %}
+
+    {% if portfolio.categories contains "project" and portfolio.categories contains "personal" %}
+    <tr>
         <td>
-            {{portfolio.skills | join: ", "}}
+            {% assign content = portfolio.content | strip_newlines %}
+            {% if content == ""  %}
+            {{ portfolio.title }}
+            {% else %}
+            <a href="{{ portfolio.url }}">{{ portfolio.title }}</a>
+            {% endif %}
         </td>
+        <td>{{ portfolio.skills | join: ", " }}</td>
+        <td>{{ portfolio.time }}</td>
     </tr>
     {% endif %}
     {% endfor %}
@@ -46,17 +74,15 @@ AWS, Google, Firebase
 
 <hr style="margin-top:25px; margin-bottom: 25px;">
 
-<h4>Awards / Grants</h4>
+<h3>Awards / Grants</h3>
 <table>
     <tr>
-        <th> Time </th>
         <th> Title </th>
+        <th> Time </th>
     </tr>
     {% for portfolio in site.portfolio reversed %}
-    <!-- @TODO Filtering inefficiently -->
         {% if portfolio.categories contains "award" or portfolio.categories contains "grant" %}
         <tr>
-            <td>{{ portfolio.time }}</td>
             <td>
                 {% assign content = portfolio.content | strip_newlines %}
                 {% if content == ""  %}
@@ -65,12 +91,13 @@ AWS, Google, Firebase
                     <a href="{{ portfolio.url }}">{{ portfolio.title }}</a>
                 {% endif %}
             </td>
+            <td>{{ portfolio.time }}</td>
         </tr>
         {% endif %}
     {% endfor %}
 </table>
 
-<h4>Publication</h4>
+<h3>Publication</h3>
 <table>
     <tr><td>
         <b>[Master Thesis]</b>

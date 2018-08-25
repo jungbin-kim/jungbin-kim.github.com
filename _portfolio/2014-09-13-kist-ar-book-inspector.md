@@ -6,6 +6,7 @@ title_ko: ""
 skills: [JavaScript]
 description: ""
 image: ""
+company: "KIST"
 categories: [project]
 ---
 

@@ -3,9 +3,10 @@ layout: post
 time: "Nov 2017"
 title: "Visualization for IoT data in Smart Aging Project"
 title_ko: "IoT 데이터 시각화를 위한 Dashboard UI 개발"
-skills: [JavaScript, HTML5, CSS3]
+skills: [JavaScript]
 description: ""
 image: ""
+company: "Letsee"
 categories: [project]
 ---
 

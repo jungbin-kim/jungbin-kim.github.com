@@ -6,6 +6,7 @@ title_ko: "하나은행 GLNKit"
 skills: [Scala, Swift3]
 description: ""
 image: ""
+company: "Letsee"
 categories: [project]
 ---
 

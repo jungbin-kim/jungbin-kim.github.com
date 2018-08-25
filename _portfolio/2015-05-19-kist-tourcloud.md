@@ -3,15 +3,16 @@ layout: post
 time: "Apr 2014 ~ Mar 2015"
 title: "TourCloud: Development of Intelligent Tour Cloud Technology"
 title_ko: "TourCloud: 지능형 소셜 투어 클라우드 기슬 개발"
-skills: [JavaScript, HTML5, CSS3]
+skills: [JavaScript]
 description: ""
 image: ""
+company: "KIST"
 categories: [project]
 ---
 
 # 한국과학기술연구원(KIST) Lab Project
 - 주제: TourCloud: 지능형 소셜 투어 클라우드 기슬 개발[^1]
-- 다양한 주체(여행사, 여행목적지, 개인) 및 방대한 웹 정보들에서부터 디지털 POI 정보, 스토리텔링 정보를 손쉽게 지능화된 표준 형식으로 축적하고, 
+- 다양한 주체(여행사, 여행목적지, 개인) 및 방대한 웹 정보들에서부터 디지털 관심지점(POI) 정보, 스토리텔링 정보를 손쉽게 지능화된 표준 형식으로 축적하고,
 이를 기반으로 차별화된 한국형 관광 콘텐츠 서비스를 제공하기 위한 TourCloud 기술을 개발함.
 - 과제 기간: 2012년 5월 ~ 2015년 3월
 - 참여 기간: 2014년 4월 ~ 2015년 3월

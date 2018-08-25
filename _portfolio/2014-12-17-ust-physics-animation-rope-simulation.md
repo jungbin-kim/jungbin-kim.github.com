@@ -3,10 +3,10 @@ layout: post
 time: "2nd Semester 2014"
 title: "Physics Animation Term Project: Rope Simulation"
 title_ko: "물리 기반 애니메이션: Rope Simulation"
-skills: [JavaScript, Three.js]
+skills: [JavaScript]
 description: ""
 image: ""
-categories: [project]
+categories: [project, personal]
 ---
 
 # UST Physics Animation Term Project

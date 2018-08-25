@@ -3,9 +3,10 @@ layout: post
 time: "Nov 2015 ~ Aug 2016"
 title: "Letsee Beer"
 title_ko: "렛시 비어"
-skills: [Scala, JavaScript, HTML5, CSS3]
+skills: [Scala, JavaScript]
 description: ""
 image: ""
+company: "Letsee"
 categories: [project]
 ---
 

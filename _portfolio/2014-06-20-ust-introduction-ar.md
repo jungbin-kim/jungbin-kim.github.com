@@ -6,7 +6,7 @@ title_ko: "증강현실 개론 수업 프로젝트: Catch dinosaur"
 skills: [C#, Unity, Vuforia]
 description: ""
 image: ""
-categories: [project]
+categories: [project, personal]
 ---
 
 # UST Introduction AR Term Project 

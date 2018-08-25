@@ -6,7 +6,7 @@ title_ko: "Windows Azure를 이용한 재난 알림 서비스"
 skills: [C#, Azure]
 description: ""
 image: ""
-categories: [project]
+categories: [project, personal]
 ---
 
 # 서울시립대학교 Multimedia Lab Project 
