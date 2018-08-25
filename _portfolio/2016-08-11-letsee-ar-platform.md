@@ -25,8 +25,17 @@ categories: [project]
 
 - 참여 기간: 2016년 8월 ~ 현재
 - 담당 직무:
-    + 증강현실 웹앱 프로토타입 개발
-    + AR Target Management System 개발
+    + 증강현실 웹앱 프로토타입 **수산물이력제** 개발: JavaScript(ES6), React(v15.3.2), Webpack(v1.13.3)
+    + AR Target Management System 개발: Play framework(Scala), AngularJS
 
 ## 개발 성과
+- 증강현실 **수산물이력제** 웹앱
+{%
+   include figure_with_caption.html
+   url='/img/portfolio/2018-08-25-letsee-arwebapp-fishtrace.png'
+   title='AR 수산물 이력제 프로토타입'
+   description=''
+   width='50%'
+%}
+
 - [Letsee Developer](https://developer.letsee.io)
