@@ -69,3 +69,4 @@ $ emcc hello.c -s WASM=1 -o hello.html
 ## 후기
 - C/C++ API 를 `.wasm`으로 만들었을 때, JS Wrapper 는 어떻게 만들어야되는가 또는 만들어주는가 이해 필요
 - OpenCV.js 빌드 해보기
+{% reference /notes/2018-10-03-webassembly-opencvjs/ %}
