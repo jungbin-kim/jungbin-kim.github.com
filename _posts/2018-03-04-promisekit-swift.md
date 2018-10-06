@@ -6,7 +6,7 @@ type: post
 published: true
 comments: true
 categories: [Programming]
-tags: [Swift3, Promise, Scala, Javascript]
+tags: [Swift3, Promise, Scala, JavaScript]
 ---
 
 ## Overview
