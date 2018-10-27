@@ -70,3 +70,7 @@ $ emcc hello.c -s WASM=1 -o hello.html
 - C/C++ API 를 `.wasm`으로 만들었을 때, JS Wrapper 는 어떻게 만들어야되는가 또는 만들어주는가 이해 필요
 - OpenCV.js 빌드 해보기
 {% reference /notes/2018-10-03-webassembly-opencvjs/ %}
+
+참고:
+- [WebAssembly 초기 프로젝트 정보(2017.01)](https://www.devpools.kr/2017/01/21/webassembly-binaryen-emscripten/)
+- [asm.js에 대해서(2013.04)](https://blog.outsider.ne.kr/927)
