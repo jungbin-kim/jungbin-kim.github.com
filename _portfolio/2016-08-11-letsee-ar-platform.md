@@ -1,6 +1,6 @@
 ---
 layout: post
-time: "Aug 2016 ~ Current"
+time: "Aug 2016 ~ Nov 2018"
 title: "Letsee AR Service Platform"
 title_ko: "렛시 증강현실 서비스 플랫폼"
 skills: [Scala, JavaScript]
