@@ -37,7 +37,7 @@ oracle64-1.8.0.172 added
 ```
 
 bash_profile에서 jenv이 java 버전 명령 설정
-(아래 Error Handling의`global로 자바 버전을 바꾸었는데, 자바 버전이 안 바뀌어 있음`의 결과)
+(아래 Error Handling의 `global로 자바 버전을 바꾸었는데, 자바 버전이 안 바뀌어 있음`의 결과)
 ```sh
 $ echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.bash_profile
 $ echo 'eval "$(jenv init -)"' >> ~/.bash_profile
@@ -45,6 +45,27 @@ $ echo 'eval "$(jenv init -)"' >> ~/.bash_profile
 # 터미널에 bash_profile 변경사항 적용
 $ source ~/.bash_profile
 ```
+
+### Install OpenJDK
+```sh
+# openjdk 버전 찾아보기
+$ brew search adoptopenjdk
+==> Casks
+adoptopenjdk                      adoptopenjdk11                    adoptopenjdk8 ✔
+adoptopenjdk10                    adoptopenjdk11-openj9             adoptopenjdk9
+
+# (Optional) adoptopenjdk를 찾을 수 없는 경우
+$ brew tap AdoptOpenJDK/openjdk
+
+# 원하는 버전 설치
+$ brew cask install adoptopenjdk10
+```
+
+[What does brew tap mean?](https://stackoverflow.com/questions/34408147/what-does-brew-tap-mean):
+> The tap command allows Homebrew to tap into another repository of formulae.
+
+참고: [Installing OpenJDK Versions on Macs](https://dzone.com/articles/install-openjdk-versions-on-the-mac)
+
 
 ## Use
 
