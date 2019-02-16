@@ -23,7 +23,7 @@ categories: [project]
    width='300px'
 %}
 
-- 참여 기간: 2016년 8월 ~ 현재
+- 참여 기간: 2016년 8월 ~ 2018년 11월
 - 담당 직무:
     + 증강현실 웹앱 프로토타입 **수산물이력제** 개발: JavaScript(ES6), React(v15.3.2), Webpack(v1.13.3)
     + AR Target Management System 개발: Play framework(Scala), AngularJS

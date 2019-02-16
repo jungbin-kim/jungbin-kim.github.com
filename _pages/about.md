@@ -12,7 +12,7 @@ permalink: /about/
 - 2018.11~Current, [TOAST Cloud](https://www.toast.com/) Developer in [NHN Entertainment Corp](https://www.nhnent.com).
 - 2015~2018.11, Software Engineer in [Letsee, Inc.](https://www.letsee.io/)
 - 2013~2015, Master student in HCI & Robotics at University of Science and Technology ([UST](https://www.ust.ac.kr/)), Daejeon, Korea. 
-([Webizing Research Laboratory (WRL)](http://www.wrl.onl/vision/), [Center for Imaging Media Research](http://www.imrc.kist.re.kr/), [KIST](https://www.kist.re.kr/kist_web/main/) Campus )
+([Webizing Research Laboratory (WRL)](http://www.wrl.onl/vision/), [Center for Imaging Media Research](http://www.imrc.kist.re.kr/), [KIST](https://www.kist.re.kr/kist_web/main/) Campus)
 - 2007~2013, B.S. degree in School of Electrical and Computer Engineering at University of Seoul, Seoul, Korea.
 
 ## Skill
