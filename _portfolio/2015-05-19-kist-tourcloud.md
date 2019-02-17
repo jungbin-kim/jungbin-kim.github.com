@@ -22,7 +22,7 @@ categories: [project]
         - HTML5, CSS3, JavaScript를 이용한 Tour Guide WebApp
     + [한국향토문화전자대전](http://www.grandculture.net/) 데이터를 TourCloud CMS 데이터 형식에 맞게 가공 
 - 사용 라이브러리: 
-    + [Leafletjs](http://leafletjs.com/index.html) (v0.7.3): An open-source JavaScript library for mobile-friendly interactive maps
+    + [Leafletjs](https://leafletjs.com/index.html) (v0.7.3): An open-source JavaScript library for mobile-friendly interactive maps
     + [jQuery](https://jquery.com/) (v1.9.1)
     + [three.js](https://threejs.org/) (r70): Javascript 3D library
     

@@ -46,7 +46,7 @@ func applyDashedRoundBorder(view: UIView) {
 그래서 `viewDidLoad()`에서 view 의 frame 을 찍어보니, storyboard 에서 정한 frame 임과 같은 것을 확인.
  반면, `viewDidLayoutSubviews()`에서는 auto layout 이 적용된 frame 으로 나옴.
  
-[When Should You Override viewDidLayoutSubviews?](http://www.iosinsight.com/override-viewdidlayoutsubviews/) 에서는
+[When Should You Override viewDidLayoutSubviews?](https://www.iosinsight.com/override-viewdidlayoutsubviews/) 에서는
 아래와 같은 이유로 `viewDidLayoutSubviews()` 함수를 사용한다고 한다. 
 > the frame and bounds for a view are not finalized until Auto Layout has done its job of laying out the main view and subviews.
 

@@ -11,7 +11,7 @@ tags: [Jenkins, Continuous Integration]
 # Jenkins 와 Bitbucket 연동으로 CI 시작하기
 기존 작업 방식은 다음과 같음.
 개인 컴퓨터(Local)에서 작업 진행 → 
-개발 서버 [git bare repository](http://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/) 에 Commit & Push →
+개발 서버 [git bare repository](https://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/) 에 Commit & Push →
 [git hooks](https://git-scm.com/book/ko/v2/Git%EB%A7%9E%EC%B6%A4-Git-Hooks) shell script 으로 push 발생 감지 → 
 Bitbucket repository 로 Push → 개발 서버 내 코드로 빌드 및 서비스 재시작 
 
@@ -112,7 +112,7 @@ Jenkins 내에서도 shell 스크립트를 사용하여 그러한 동작을 정�
 
 ## 참고
 - [Bitbucket Jenkins 연동하기](http://confluence.augkorea.org/pages/viewpage.action?pageId=10977603)
-- [docker를 이용한 CI 구축 연습하기 (젠킨스, 슬랙)](http://jojoldu.tistory.com/139)
+- [docker를 이용한 CI 구축 연습하기 (젠킨스, 슬랙)](https://jojoldu.tistory.com/139)
 
 
 

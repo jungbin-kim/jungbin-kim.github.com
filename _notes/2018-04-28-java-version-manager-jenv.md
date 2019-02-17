@@ -9,7 +9,7 @@ tags: [Version Management]
 ---
 
 ## 자바 버전 관리자(jenv) 설치
-다양한 버전의 자바를 사용하기 위해서 버전 관리 패키지([jenv](http://www.jenv.be/))를 설치.
+다양한 버전의 자바를 사용하기 위해서 버전 관리 패키지([jenv](https://www.jenv.be/))를 설치.
 ```sh
 $ brew install jenv
 
@@ -113,5 +113,5 @@ $ jenv doctor
 [공식 사이트](http://www.jenv.be/)에서 메뉴얼 참고하여 해결.
 
 ## Reference
-[osx - jenv 로 여러 버전의 java 사용하기. jdk 설치](http://junho85.pe.kr/736) 
+[osx - jenv 로 여러 버전의 java 사용하기. jdk 설치](https://junho85.pe.kr/736) 
 

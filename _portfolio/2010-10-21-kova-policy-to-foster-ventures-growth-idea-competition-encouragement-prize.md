@@ -10,4 +10,4 @@ categories: [award]
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/mfwI5hZyUA4?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-[공모전 공지 링크](http://ventureidea.tistory.com/)
+[공모전 공지 링크](https://ventureidea.tistory.com/)

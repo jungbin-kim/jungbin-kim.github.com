@@ -25,6 +25,6 @@ $ source ~/.exrc
 - nocp: vim 전용 기능 사용
 
 ## 참고
-- [Ubuntu Vi 백스페이스 및 방향키](http://19bantedkoo.blogspot.com/2014/07/ubuntu-vi.html)
-- [vi 환경설정을 위한 .exrc 설명](http://devkk.tistory.com/181)
+- [Ubuntu Vi 백스페이스 및 방향키](https://19bantedkoo.blogspot.com/2014/07/ubuntu-vi.html)
+- [vi 환경설정을 위한 .exrc 설명](https://devkk.tistory.com/181)
 - [.vimrc 설정 방법 내에서 bs 옵션](https://github.com/johngrib/simple_vim_guide/blob/master/md/vimrc.md#backspace-bs)

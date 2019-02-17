@@ -85,4 +85,4 @@ network.bind_host: {ip}
 Elastic Search의 상태를 웹 상에서볼 수 있도록 해줌. 각종 쿼리를 실험해볼 수 있음.
 - [Elasticsearch 5.0에서 사이트 플러그인 실행](https://www.elastic.co/kr/blog/running-site-plugins-with-elasticsearch-5-0)
 - [mobz/elasticsearch-head](https://github.com/mobz/elasticsearch-head#running-with-built-in-server)
-- [Head Plugins 설치 및 구동](http://jjeong.tistory.com/1202)
+- [Head Plugins 설치 및 구동](https://jjeong.tistory.com/1202)

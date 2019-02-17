@@ -49,13 +49,13 @@ Classification을 할 때 검사 데이터가 특정 분류에 속할 확률을 
 {% reference https://www.popit.kr/coursera-machine-learning%EC%9C%BC%EB%A1%9C-%EA%B8%B0%EA%B3%84%ED%95%99%EC%8A%B5-%EB%B0%B0%EC%9A%B0%EA%B8%B0-week7/ %}
 
 - Week 8 Unsupervised Learning
-{% reference http://fabj.tistory.com/8 %}
+{% reference https://fabj.tistory.com/8 %}
 
 - Week 9 Anomaly Detection
-{% reference http://fabj.tistory.com/9 %}
+{% reference https://fabj.tistory.com/9 %}
 
 - Week 10 Large Scale Machine Learning
-{% reference http://fabj.tistory.com/11 %}
+{% reference https://fabj.tistory.com/11 %}
 
 - week 11 Application Example: Photo OCR
 {% reference https://www.slideshare.net/freepsw/coursera-machine-learning-by-andrew-ng/133 %}

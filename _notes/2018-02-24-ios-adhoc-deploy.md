@@ -22,7 +22,7 @@ Archive가 완료되면, 지금까지 빌드한 앱들의 히스토리를 볼 �
 1. `App URL`은 https로 접근 가능한 웹 서버 내 ipa파일 url path, 나머지 `Image URL`들은 아무 URL 입력.
 
 참고: 
-- http://blog.lonelie.kr/57
-- http://jiwoochoi.tistory.com/103
+- [웹을 사용해 ipa AdHoc 배포/설치](https://blog.lonelie.kr/57)
+- [AD-HOC으로 앱 배포하기](https://jiwoochoi.tistory.com/103)
 
 

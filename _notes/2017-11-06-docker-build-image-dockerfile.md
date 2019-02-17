@@ -43,7 +43,7 @@ play server의 port를 docker container의 port와 연결해야 서비스가 작
 
 ### 3. Deploy a project
 - Download test play2.5 project at https://www.playframework.com/download
-- Apply [native-packager](http://www.scala-sbt.org/sbt-native-packager/index.html) 
+- Apply [native-packager](https://www.scala-sbt.org/sbt-native-packager/index.html) 
 and distribute a project by using `sbt universal:packageZipTarball`
 
 ### 4. Test deployed file 
