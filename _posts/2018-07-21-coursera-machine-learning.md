@@ -27,23 +27,17 @@ Classification을 할 때 검사 데이터가 특정 분류에 속할 확률을 
 
 ### 강의 참고 자료 
 
-- Week 1 Introduction
-{% reference http://www.kwangsiklee.com/ko/2017/07/corsera-machine-learning-week1-%EC%A0%95%EB%A6%AC/ %} 
+- Week 1 Introduction: [참고](http://www.kwangsiklee.com/ko/2017/07/corsera-machine-learning-week1-%EC%A0%95%EB%A6%AC/)
 
-- Week 2 Linear Regression with Multiple Variables
-{% reference http://www.kwangsiklee.com/ko/2017/07/corsera-machine-learning%EC%9C%BC%EB%A1%9C-%EA%B8%B0%EA%B3%84%ED%95%99%EC%8A%B5-%EB%B0%B0%EC%9A%B0%EA%B8%B0-week2/ %}
+- Week 2 Linear Regression with Multiple Variables: [참고](http://www.kwangsiklee.com/ko/2017/07/corsera-machine-learning%EC%9C%BC%EB%A1%9C-%EA%B8%B0%EA%B3%84%ED%95%99%EC%8A%B5-%EB%B0%B0%EC%9A%B0%EA%B8%B0-week2/)
 
-- Week 3 Logistic Regression
-{% reference http://www.kwangsiklee.com/ko/2017/07/corsera-machine-learning%EC%9C%BC%EB%A1%9C-%EA%B8%B0%EA%B3%84%ED%95%99%EC%8A%B5-%EB%B0%B0%EC%9A%B0%EA%B8%B0-week3/ %}
+- Week 3 Logistic Regression: [참고](http://www.kwangsiklee.com/ko/2017/07/corsera-machine-learning%EC%9C%BC%EB%A1%9C-%EA%B8%B0%EA%B3%84%ED%95%99%EC%8A%B5-%EB%B0%B0%EC%9A%B0%EA%B8%B0-week3/)
 
-- Week 4 Neural Networks: Representation
-{% reference http://www.kwangsiklee.com/ko/2017/08/corsera-machine-learning%EC%9C%BC%EB%A1%9C-%EA%B8%B0%EA%B3%84%ED%95%99%EC%8A%B5-%EB%B0%B0%EC%9A%B0%EA%B8%B0-week4/ %}
+- Week 4 Neural Networks: Representation: [참고](http://www.kwangsiklee.com/ko/2017/08/corsera-machine-learning%EC%9C%BC%EB%A1%9C-%EA%B8%B0%EA%B3%84%ED%95%99%EC%8A%B5-%EB%B0%B0%EC%9A%B0%EA%B8%B0-week4/)
 
-- Week 5 Neural Networks: Learning
-{% reference http://www.kwangsiklee.com/ko/2017/11/coursera-machine-learning%EC%9C%BC%EB%A1%9C-%EA%B8%B0%EA%B3%84%ED%95%99%EC%8A%B5-%EB%B0%B0%EC%9A%B0%EA%B8%B0-week5/ %}
+- Week 5 Neural Networks: Learning: [참고](http://www.kwangsiklee.com/ko/2017/11/coursera-machine-learning%EC%9C%BC%EB%A1%9C-%EA%B8%B0%EA%B3%84%ED%95%99%EC%8A%B5-%EB%B0%B0%EC%9A%B0%EA%B8%B0-week5/)
 
-- Week 6 Advice for Applying Machine Learning
-{% reference http://www.kwangsiklee.com/ko/2017/11/coursera-machine-learning%EC%9C%BC%EB%A1%9C-%EA%B8%B0%EA%B3%84%ED%95%99%EC%8A%B5-%EB%B0%B0%EC%9A%B0%EA%B8%B0-week6/ %}
+- Week 6 Advice for Applying Machine Learning: [참고](http://www.kwangsiklee.com/ko/2017/11/coursera-machine-learning%EC%9C%BC%EB%A1%9C-%EA%B8%B0%EA%B3%84%ED%95%99%EC%8A%B5-%EB%B0%B0%EC%9A%B0%EA%B8%B0-week6/)
 
 - Week 7 Support Vector Machines
 {% reference https://www.popit.kr/coursera-machine-learning%EC%9C%BC%EB%A1%9C-%EA%B8%B0%EA%B3%84%ED%95%99%EC%8A%B5-%EB%B0%B0%EC%9A%B0%EA%B8%B0-week7/ %}
