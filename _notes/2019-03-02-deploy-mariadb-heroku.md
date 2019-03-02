@@ -34,4 +34,24 @@ Use heroku addons:docs jawsdb-maria to view documentation
     ```
     - 위에서 나온 결과로 사용하는 프레임워크에 맞춰 DB 설정을 해주면 된다.
 
+### DB Config 설정
+- DB 정보를 config 파일에 기입하기 보다 환경변수로 만들어 사용. 
+  - 예) SpringBoot의 `application.properties`(로컬에서 테스트할 때는 자바 환경변수 `-DJawsDB_URL=url`과 같이 해준다.)
+    ```
+    spring.datasource.url=${JawsDB_URL}
+    spring.datasource.username=${JawsDB_USER}
+    spring.datasource.password=${JawsDB_PASSWORD}
+    ```
+- Heroku CLI를 사용하여 [Heroku Config 설정](https://devcenter.heroku.com/articles/config-vars#using-the-heroku-cli). 
+  ```sh
+  # 현재 환경 변수들 보기
+  $ heroku config
+
+  # 환경 변수 추가 key=value
+  $ heroku config:set JawsDB_PASSWORD=password
+
+  # 환경 변수 삭제 key
+  $ heroku config:unset JawsDB_PASSWORD
+  ```
+  - set을 이용하여 `JawsDB_URL`, `JawsDB_USER`, `JawsDB_PASSWORD` 변수 설정
 
