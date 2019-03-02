@@ -52,3 +52,7 @@ notes:
         url: /notes/#config
       - title: "Tool"
         url: /notes/#tool
+      - title: "Cloud Service"
+        url: /notes/#service
+      - title: "Java"
+        url: /notes/#java
