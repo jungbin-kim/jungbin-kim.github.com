@@ -44,7 +44,7 @@ tags: [Chinese, 중국어, 爱情公寓, 애정공우]
 -그것은 너가 언제 어떤 한 사람에게 반할지 모르는 것과 같다.
 ~~~
 
-[![link](http://img.youtube.com/vi/kknmF101s0o/0.jpg)](https://youtu.be/kknmF101s0o?t=43m53s)
+[![link](https://img.youtube.com/vi/kknmF101s0o/0.jpg)](https://youtu.be/kknmF101s0o?t=43m53s)
 
 [^1]: 碧空 [bikōng]-명사 푸른 하늘
 [^2]: 缘分 [yuanfen]-명사 연분, 인연
