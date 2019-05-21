@@ -1,11 +1,15 @@
 ---
 layout: post
 time: "Nov 2018 ~ <span style='color:Tomato;'>Now</span>"
-title: "TOAST Cloud: Homepage Maintenance"
-title_ko: "토스트 클라우드 홈페이지 유지보수"
+title: "TOAST Cloud: Homepage"
+title_ko: "토스트 클라우드 홈페이지"
 skills: [JavaScript, Java]
 description: ""
 image: ""
 company: "NHN"
 categories: [project]
 ---
+
+- [TOAST 홈페이지](https://www.toast.com)(PC/Mobile) 유지보수
+- [공공기관용 TOAST 홈페이지](https://gov.toast.com) 개발
+- [일본 TOAST 홈페이지](https://www.toast.com/jp) 개발
