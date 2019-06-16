@@ -21,8 +21,10 @@ posts:
         url: /categories/#linux
   - title: Front-End
     children:
+      - title: "Web"
+        url: /categories/#web
       - title: "Jekyll"
-        url: /categories/#jekyll
+        url: /categories/#jekyll  
   - title: Client
     children:
       - title: "iOS"
