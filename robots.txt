@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://blog.jungbin.kim/sitemap.xml
