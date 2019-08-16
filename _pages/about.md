@@ -1,6 +1,7 @@
 ---
 title: About
 permalink: /about/
+description: Introduction about Jungbin. 김정빈 소개.
 ---
 
 ## Interest

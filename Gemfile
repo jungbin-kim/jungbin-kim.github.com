@@ -21,4 +21,4 @@ gem "jekyll", "~> 3.5"
 gem "minimal-mistakes-jekyll"
 gem 'metainspector'
 gem 'jekyll-redirect-from'
-gem "jekyll-seo-tag"
+gem 'jekyll-seo-tag'

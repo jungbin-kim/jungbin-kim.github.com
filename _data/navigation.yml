@@ -1,14 +1,14 @@
 main:
   - title: "Portfolio"
     url: /portfolio/
-  - title: "About"
-    url: /about/
+  - title: Notes
+    url: /notes/
   - title: "Tags"
     url: /tags/
   - title: "Categories"
     url: /categories/
-  - title: Notes
-    url: /notes/
+  - title: "About"
+    url: /about/
 
 posts:
   - title: Back-End
