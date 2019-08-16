@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/jekyll/jekyll-seo-tag
+  revision: e007a971755cd35f9b392aff270a8f1428be666f
+  branch: master
+  specs:
+    jekyll-seo-tag (2.6.1)
+      jekyll (>= 3.3, < 5.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -63,8 +71,6 @@ GEM
       jekyll (~> 3.3)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
-    jekyll-seo-tag (2.6.1)
-      jekyll (>= 3.3, < 5.0)
     jekyll-sitemap (1.2.0)
       jekyll (~> 3.3)
     jekyll-watch (2.0.0)
@@ -137,7 +143,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.5)
   jekyll-redirect-from
-  jekyll-seo-tag
+  jekyll-seo-tag!
   metainspector
   minimal-mistakes-jekyll
 
