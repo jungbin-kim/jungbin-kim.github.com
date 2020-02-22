@@ -34,6 +34,18 @@ Simulator 실행:
 준비사항:
 - Safari -> Preference -> Advanced -> Check `Show Develop menu in menu bar`
 
+**(2020.02.22 업데이트)**
+
+이제 Mac 사파리에서 Simulator 모바일 사파리 웹 페이지 디버깅이 안되는 것 같다.
+대신, [`Safari Technology Preview`](https://developer.apple.com/safari/technology-preview/)라는 사파리 베타 버전을 설치하여 디버깅 할 수 있다.
+
+사파리에서 `Develop > Get Safari Technology Preview` 메뉴로 다운로드 페이지로 들어갈 수 있고,
+
+![](/img/posts/2020-02-22-ios-simulator-web-debug.jpg)
+
+또는 brew로 `$ brew cask install safari-technology-preview` 로 설치 가능 하다.
+
+
 ## Debug web app
 - Mac 로컬에서 웹앱 구동 ex. localhost:4443
 - Simulator로 돌아가는 가상 디바이스의 Safari에서 로컬 웹앱 접근
