@@ -1,6 +1,6 @@
 ---
 layout: post
-time: "Nov 2018 ~ <span style='color:Tomato;'>Now</span>"
+time: "Nov 2018 ~ Dec 2019"
 title: "TOAST Cloud: Homepage"
 title_ko: "토스트 클라우드 홈페이지"
 skills: [JavaScript, Java]
