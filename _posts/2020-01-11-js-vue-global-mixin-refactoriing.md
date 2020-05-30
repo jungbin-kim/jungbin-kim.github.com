@@ -2,11 +2,11 @@
 layout: post
 title: Refactoring Vue Global Mixin Component 
 date: 2020-01-11 20:13:21 +0900
-type: post
 published: true
 comments: true
 categories: [Web]
 tags: [Vue, JavaScript]
+type: post
 ---
 
 # 배경

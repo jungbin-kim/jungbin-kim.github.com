@@ -42,10 +42,6 @@ collections:
     output: true
     permalink: /:collection/:path/
     title: Portfolio
-  notes:
-    output: true
-    permalink: /:collection/:path/
-    title: Notes
 
 author:
   name             : "Jungbin Kim"

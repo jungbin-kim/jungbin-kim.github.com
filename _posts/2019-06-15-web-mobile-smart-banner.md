@@ -2,11 +2,11 @@
 layout: post
 title: Smart Banner to announce app on mobile web
 date: 2019-06-15 15:47:00 +0900
-type: post
 published: true
 comments: true
 categories: [Web]
 tags: [Mobile]
+type: note
 ---
 
 ## 모바일 웹에서 앱을 알리는 방법

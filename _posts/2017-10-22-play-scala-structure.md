@@ -2,11 +2,11 @@
 layout: post
 title: Structure for play-scala (Controller, Service, DAO)
 date: 2017-10-22 19:56:00 +0900
-type: post
 published: true
 comments: true
-categories: [Playframework, scala]
-tags: [Programming, Scala, Play framework, Structure]
+categories: [Playframework]
+tags: [Scala, Play framework]
+type: post
 ---
 
 ## Overview

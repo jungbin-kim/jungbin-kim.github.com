@@ -2,11 +2,11 @@
 layout: post
 title: Compare Scala trait to java interface
 date: 2018-07-26 23:31:12 +0900
-type: post
 published: true
 comments: true
-categories: [Programming, Scala]
+categories: [Programming]
 tags: [Java, Scala]
+type: post
 ---
 
 ## Scala trait과 Java interface 비교

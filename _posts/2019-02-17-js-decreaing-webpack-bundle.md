@@ -2,11 +2,11 @@
 layout: post
 title: Decrease webpack bunlding file size
 date: 2019-02-17 00:12:21 +0900
-type: post
 published: true
 comments: true
 categories: [Web]
-tags: [JavaScript]
+tags: [JavaScript, Webpack, Bundling]
+type: note
 ---
 
 # Webpack bundling 파일 사이즈 줄이기(Tree Shaking)

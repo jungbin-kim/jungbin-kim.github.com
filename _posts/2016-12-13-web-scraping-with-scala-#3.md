@@ -2,11 +2,11 @@
 layout: post
 title: Web Scraping with Scala-#3
 date: 2016-12-13 20:15:28 +0900
-type: post
 published: true
 comments: true
-categories: [Programming, Scala]
-tags: [Scala, Web crawler, scraping, crawling, 스칼라, 크롤러, Either]
+categories: [Scala]
+tags: [Scala, Web crawler]
+type: note
 ---
 
 ## Contents

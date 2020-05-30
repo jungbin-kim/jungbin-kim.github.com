@@ -5,8 +5,9 @@ date: 2016-12-10 11:29:18 +0900
 type: post
 published: true
 comments: true
-categories: [Programming, Scala]
-tags: [Scala, Web crawler, scraping, crawling, 스칼라, 크롤러]
+categories: [Scala]
+tags: [Scala, Web crawler]
+type: note
 ---
 
 ## Requirement

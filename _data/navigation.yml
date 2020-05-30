@@ -1,8 +1,8 @@
 main:
+  - title: Recents
+    url: /
   - title: "Portfolio"
     url: /portfolio/
-  - title: Notes
-    url: /notes/
   - title: "Tags"
     url: /tags/
   - title: "Categories"
@@ -13,48 +13,42 @@ main:
 posts:
   - title: Back-End
     children:
-      - title: "Play Framework"
-        url: /categories/#playframework
       - title: "Spring"
         url: /categories/#spring
+      - title: "Play Framework"
+        url: /categories/#playframework
       - title: "Linux"
         url: /categories/#linux
+      - title: "DB"
+        url: /categories/#db
   - title: Front-End
     children:
       - title: "Web"
         url: /categories/#web
-      - title: "Jekyll"
-        url: /categories/#jekyll  
   - title: Client
     children:
       - title: "iOS"
         url: /categories/#ios
   - title: Programming
     children:
+      - title: "Java"
+        url: /categories/#java
       - title: "Scala"
         url: /categories/#scala
-      - title: "Machine Learning"
-        url: /categories/#machinelearning
-
-notes:
-  - title: Notes
-    url: /notes/
-    children:
-      - title: "Web"
-        url: /notes/#web
-      - title: "Jekyll"
-        url: /notes/#jekyll
-      - title: "iOS"
-        url: /notes/#ios
-      - title: "Linux"
-        url: /notes/#linux
-      - title: "DB"
-        url: /notes/#db
-      - title: "Configuration"
-        url: /notes/#config
-      - title: "Tool"
-        url: /notes/#tool
-      - title: "Cloud Service"
-        url: /notes/#service
-      - title: "Java"
-        url: /notes/#java
+      - title: "Docker"
+        url: /categories/#docker
+      - title: "Elasticsearch"
+        url: /categories/#elasticsearch
+      - title: "Nginx"
+        url: /categories/#nginx
+      - title: "Service"
+        url: /categories/#service
+      - title: "Blog Dev"
+        url: /categories/#blog
+      - title: "IDE"
+        url: /categories/#ide
+      - title: "Git"
+        url: /categories/#git
+      - title: "Etc"
+        url: /categories/#programming
+        

@@ -2,8 +2,11 @@
 layout: post
 title: Move hosting service from Github pages to netlify
 date: 2017-10-09 19:43:11 +0900
-categories: [Jekyll]
-tags: [Jekyll, Ruby, GithubPage, netlify, Blog]
+published: true
+comments: true
+categories: [Blog]
+tags: [Jekyll, netlify]
+type: note
 ---
 
 ## Overview

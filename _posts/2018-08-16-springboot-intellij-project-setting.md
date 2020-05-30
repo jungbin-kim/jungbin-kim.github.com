@@ -4,9 +4,9 @@ title: Setting Spring boot project on IntelliJ
 date: 2018-08-16 21:02:15 +0900
 published: true
 comments: true
-type: post
 categories: [Spring]
-tags: [Spring boot, IntelliJ]
+tags: [Spring Boot, IntelliJ, Setup]
+type: note
 ---
 
 ## Spring boot 프로젝트 IntelliJ 에 세팅하기

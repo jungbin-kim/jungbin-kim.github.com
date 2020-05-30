@@ -2,11 +2,11 @@
 layout: post
 title: Unusual point of cookie on ios web browser
 date: 2019-06-23 07:30:00 +0900
-type: post
 published: true
 comments: true
 categories: [Web]
-tags: [Mobile]
+tags: [Mobile, ErrorHandling]
+type: post
 ---
 
 # 왜 나는 눈앞의 버그를 보지 못했는가? - iOS 웹 브라우저에서 쿠키 설정 시 특이사항

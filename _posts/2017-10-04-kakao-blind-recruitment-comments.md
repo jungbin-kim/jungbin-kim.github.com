@@ -2,11 +2,11 @@
 layout: post
 title: Kakao blind recruitment comments
 date: 2017-10-04 15:30:49 +0900
-type: post
 published: true
 comments: true
-categories: [Programming, Scala]
-tags: [Scala, 스칼라, Programming, kakao]
+categories: [Scala]
+tags: [Scala, Code Test]
+type: post
 ---
 
 ## 개요 

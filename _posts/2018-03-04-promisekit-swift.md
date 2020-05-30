@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Swift3(PromiseKit)으로 Async 사용해보기
+title: Swift3(PromiseKit)으로 Async 사용해보기 (scala, js 와 비교)
 date: 2018-03-04 19:01:45 +0900
-type: post
 published: true
 comments: true
-categories: [Programming]
+categories: [iOS]
 tags: [Swift3, Promise, Scala, JavaScript]
+type: post
 ---
 
 ## Overview

@@ -2,11 +2,11 @@
 layout: post
 title: Make Jekyll plugin showing html meta data on an url
 date: 2018-03-11 09:11:49 +0900
-type: post
 published: true
 comments: true
-categories: [Jekyll]
-tags: [Ruby, Jekyll, Blog]
+categories: [Blog]
+tags: [Ruby, Jekyll]
+type: post
 ---
 
 ## Overview 

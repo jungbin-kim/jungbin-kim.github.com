@@ -2,8 +2,11 @@
 layout: post
 title: Apply google analytics at jekyll blog
 date: 2017-10-12 22:13:00 +0900
-categories: [Jekyll]
-tags: [Jekyll, netlify, Google analytics, Blog]
+published: true
+comments: true
+categories: [Blog]
+tags: [Jekyll, Google Analytics]
+type: note
 ---
 
 ## Overview

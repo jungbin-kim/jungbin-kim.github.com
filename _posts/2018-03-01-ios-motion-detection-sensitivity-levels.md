@@ -5,8 +5,9 @@ date: 2018-03-01 15:42:16 +0900
 type: post
 published: true
 comments: true
-categories: [iOS, Swift3]
+categories: [iOS]
 tags: [iOS, Swift3, Sensor]
+type: note
 ---
 
 ## iOS motion sensor 민감도 조절 방법 조사

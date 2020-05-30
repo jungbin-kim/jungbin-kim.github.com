@@ -2,11 +2,11 @@
 layout: post
 title: Machine Learning by Stanford University (Andrew Ng) on Coursera
 date: 2018-07-21 23:35:48 +0900
-type: post
 published: true
 comments: true
-categories: [MachineLearning]
+categories: [programming]
 tags: [Coursera, Machine Learning]
+type: post
 ---
 
 ## Coursera Machine Learning 강의를 듣고

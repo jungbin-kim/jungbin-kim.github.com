@@ -2,11 +2,11 @@
 layout: post
 title: Handling Multipart/form-data on Spring Boot 2
 date: 2018-09-11 23:29:49 +0900
-type: post
 published: true
 comments: true
 categories: [Spring]
-tags: [Spring boot]
+tags: [Spring Boot]
+type: note
 ---
 
 ## content-type이 multipart/form-data 인 HTTP Request를 Spring Boot 2에서 처리하는 방법

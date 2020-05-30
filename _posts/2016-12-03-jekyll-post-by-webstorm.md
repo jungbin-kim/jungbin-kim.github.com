@@ -5,8 +5,9 @@ date: 2016-12-03 20:41:37 +0900
 type: post
 published: true
 comments: true
-categories: [Jekyll]
-tags: [Blog, Jekyll, Webstorm]
+categories: [Blog]
+tags: [Jekyll, Webstorm]
+type: note
 ---
 
 1. Open Preferences dialog in webstorm

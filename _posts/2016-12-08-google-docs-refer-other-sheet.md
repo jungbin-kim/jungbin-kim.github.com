@@ -5,8 +5,9 @@ date: 2016-12-08 09:37:37 +0900
 type: post
 published: true
 comments: true
-categories: [Etc, Office]
-tags: [Tip, 구글스프레드시트, Google spreadsheet, vlookup]
+categories: [Office]
+tags: [Google spreadsheet]
+type: note
 ---
 
 # 요구사항

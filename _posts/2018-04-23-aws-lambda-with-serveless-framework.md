@@ -4,9 +4,9 @@ title: AWS lambda using scala based on Serverless framework
 date: 2018-04-23 06:58:30 +0900
 published: true
 comments: true
-type: post
-categories: [AWS]
+categories: [Service]
 tags: [Scala, AWS, Lambda]
+type: note
 ---
 
 ## Serverless framework 기반, scala로 AWS lambda 사용하기

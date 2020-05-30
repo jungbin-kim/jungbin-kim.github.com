@@ -2,11 +2,11 @@
 layout: post
 title: SpringFox - API Documentation on Spring Boot
 date: 2018-09-22 15:40:50 +0900
-type: post
 published: true
 comments: true
 categories: [Spring]
-tags: [Spring boot]
+tags: [Spring Boot]
+type: note
 ---
 
 ## API Documentation 이란

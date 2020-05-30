@@ -2,11 +2,11 @@
 layout: post
 title: How to setup PlayFramework Environment on MacOS
 date: 2017-01-07 06:45:49 +0900
-type: post
 published: true
 comments: true
-categories: [Playframework, Scala]
-tags: [Scala, Play framework, Setup environment, 스칼라, 환경설정, 맥, mac]
+categories: [Playframework]
+tags: [Scala, Play framework, Setup]
+type: note
 ---
 
 ## Requirement
