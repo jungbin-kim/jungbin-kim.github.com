@@ -16,9 +16,11 @@ type: note
 ## 분석
 - 문제가 발생한 특정 메뉴 영역의 z-index가 원래 값에서 더 줄어 있었다. 그래서 그 영역 레이어보다 z-index가 큰 레이어에 가려서 mouseout 이벤트가 영역 중간에 발생하였다.
 
-<span style="display: table; margin-left: auto; margin-right: auto;">
-  ![](../../img/posts/2020-01-18-issue.png)
-</span>
+{% 
+   include figure_with_caption.html 
+   url='/img/posts/2020-01-18-issue.png'
+   width='50%'
+%}
 
 - CSS에 영향을 미칠 수 있는 부분을 생각해보았다. Webpack 번들링 옵션쪽이 가장 유력하였으며, CSS를 변경하는 옵션이 있는지 찾아보았다.
 - 스테이징 환경에서는 CSS 를 최적화 / 최소화 할 수 있는 [Optimize CSS Assets Webpack Plugin](https://github.com/cssnano/cssnano)을 사용하고 있었다.
