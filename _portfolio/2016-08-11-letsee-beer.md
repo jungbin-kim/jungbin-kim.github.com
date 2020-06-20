@@ -30,4 +30,4 @@ categories: [project]
     + DBMS: MariaDB
 
 ## 서비스 영상
-<iframe width="640" height="360" src="https://www.youtube.com/embed/cxmXwmIg1co?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/GdTT1GcnjNo?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
