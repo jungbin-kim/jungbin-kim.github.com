@@ -78,3 +78,5 @@ comments:
   disqus:
     shortname: "blog-jungbin-kim"
 
+search: true
+search_full_content: true
