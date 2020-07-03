@@ -7,5 +7,5 @@ skills: [Machine Learning, Octave]
 description: ""
 image: ""
 categories: [project, personal]
-redirect_to: "/machinelearning/2018/07/21/coursera-machine-learning.html"
+redirect_to: "/programming/2018/07/21/coursera-machine-learning.html"
 ---
