@@ -7,8 +7,6 @@ main:
     url: /tags/
   - title: "Categories"
     url: /categories/
-  - title: "About"
-    url: /about/
 
 posts:
   - title: Back-End
