@@ -63,6 +63,9 @@ defaults:
       sidebar:
         nav: "posts"
       comments: true
+      toc: true
+      toc_sticky: true
+      toc_label: "Contents"
   # _pages
   - scope:
       path: _pages

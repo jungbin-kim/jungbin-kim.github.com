@@ -26,4 +26,5 @@ categories: [project]
    description=''
    width='300px'
 %}
-- 컨셉 영상(iOS 구동 영상을 따로 남기지 못함): <iframe width="640" height="360" src="https://www.youtube.com/embed/nnvZz0oJ_Gc?start=420" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+- 컨셉 영상(iOS 구동 영상을 따로 남기지 못함): 
+<iframe width="640" height="360" src="https://www.youtube.com/embed/nnvZz0oJ_Gc?start=420" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

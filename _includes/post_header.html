@@ -8,11 +8,6 @@
         <p>{{ page.sub_title | markdownify | strip_html }}</p>
         {% endif %}
 
-        <p class="page__meta">
-            {%
-                include post_meta.html
-                post = page
-            %}
-        </p>
+        {% include post_meta.html post = page %}
     </header>
 </div>
