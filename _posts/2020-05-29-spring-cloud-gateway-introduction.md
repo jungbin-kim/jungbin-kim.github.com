@@ -5,7 +5,7 @@ date: 2020-05-29 14:07:00 +0900
 published: true
 comments: true
 categories: [Spring]
-tags: [Spring Cloud]
+tags: [Spring Cloud Gateway]
 type: note
 ---
 
@@ -57,8 +57,9 @@ spring:
   * Spring 과 함께 사용하기 힘들다. 
 * 성능 벤치 마크([spencergibb/spring-cloud-gateway-bench](https://github.com/spencergibb/spring-cloud-gateway-bench))를 보면 zuul 보단 성능 면에서 좋다. (시간이 좀 지난 데이터이긴하다.)
 
-나름 결론:
+## 결론:
 * 다른 Spring mircroservices 이나 Spring reactive(Non-Blocking) 쓰고 싶으면 Spring Cloud Gateway 를 사용
+* [다음 글 - Spring Cloud Gateway Handler Mapping 코드 분석](/spring/2021/02/13/spring-cloud-gateway-handler-mapping.html)
 
 ## 참고
 [Spring Cloud Gateway official docs](https://cloud.spring.io/spring-cloud-gateway/reference/html/#gateway-how-it-works)
