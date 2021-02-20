@@ -11,7 +11,7 @@ type: note
 
 ## Spring Cloud Gateway Handler Mapping 코드 분석
 Spring Cloud Gateway(`v2.2.7.RELEASE`) 코드에서 Handler Mapping 부분(아래 이미지 음영 외 부분)을 분석한다.
-Spring Cloud Gateway의 클라이언트 요청 처리는 Spring 프레임워크에서 처리하는 것과 동일하며, Gateway에 맞게 HandlerMapping 객체를 확장(RoutePredicateHandlerMapping)하여 사용한다.
+Spring Cloud Gateway의 클라이언트 요청 처리는 Spring 프레임워크에서 처리하는 것과 동일하며, Gateway에 맞게 HandlerMapping 객체를 확장(RoutePredicateHandlerMapping)하여 요청을 처리할 WebHandler를 찾는데 사용한다.
 {% 
    include figure_with_caption.html 
    url='/img/posts/2021-02-13-spring_cloud_gateway_diagram_handler_mapping.png'
@@ -21,7 +21,7 @@ Spring Cloud Gateway의 클라이언트 요청 처리는 Spring 프레임워크�
 - [이전 포스트 - Spring Cloud Gateway 소개](/spring/2020/05/29/spring-cloud-gateway-introduction.html)
 
 ## 클라이언트 요청이 처리되는 순서대로 코드 분석
-- 순서 요약: Client -> **HttpWebHandlerAdapter.handle -> DispatcherHandler.handle -> RoutePredicateHandlerMapping.getHandlerInternal** -> Gateway Filter Chain
+- 순서 요약: Client -> **HttpWebHandlerAdapter.handle -> DispatcherHandler.handle -> RoutePredicateHandlerMapping.getHandlerInternal** -> FilteringWebHandler.handle (Gateway Filter Chain)
 - 거쳐가는 객체가 더 있지만, 중요한 부분만 분석.
 
 ### HttpWebHandlerAdapter
