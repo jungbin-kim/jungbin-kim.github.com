@@ -1,6 +1,6 @@
 ---
 layout: post
-time: "Nov 2018 ~ <span style='color:Tomato;'>Now</span>"
+time: "Nov 2018 ~ May 2020"
 title: "TOAST Cloud: Console"
 title_ko: "토스트 클라우드 웹 콘솔 유지보수"
 skills: [JavaScript, Java]
