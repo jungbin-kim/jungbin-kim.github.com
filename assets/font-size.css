@@ -1,0 +1,11 @@
+@media (min-width: 64em) {
+  html {
+    font-size: 16px; 
+  } 
+}
+
+@media (min-width: 80em) {
+  html {
+      font-size: 16px;
+  } 
+}
