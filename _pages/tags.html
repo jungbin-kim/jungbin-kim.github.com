@@ -20,7 +20,7 @@ description: tag cloud for posts. 태그 별 글 분류. 태그 클라우드.
 {% endfor %}
 
 <!-- Grouping -->
-{% assign grouped_all_tags = all_tags | sort | group_by: self %}
+{% assign grouped_all_tags = all_tags | sort | group_by_exp: "item", "item"  %}
 
 <ul class="tag-cloud">
     {% for tag in grouped_all_tags %}
